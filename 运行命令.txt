@@ -1,0 +1,19 @@
+python speech-recognition-from-microphone-with-endpoint-detection.py \
+  --provider=rknn \
+  --encoder=./moder/encoder.rknn \
+  --decoder=./moder/decoder.rknn \
+  --joiner=./moder/joiner.rknn \
+  --tokens=./moder/tokens.txt
+
+
+python speech-recognition-from-microphone-with-endpoint-detection.py \
+  --provider=rknn \
+  --encoder=./moder/encoder.rknn \
+  --decoder=./moder/decoder.rknn \
+  --joiner=./moder/joiner.rknn \
+  --tokens=./moder/tokens.txt \
+  --hr-dict-dir=./PhraseReplacement/dict \
+  --hr-lexicon=./PhraseReplacement/lexicon.txt \
+  --hr-rule-fsts=./PhraseReplacement/replace.fst
+
+
