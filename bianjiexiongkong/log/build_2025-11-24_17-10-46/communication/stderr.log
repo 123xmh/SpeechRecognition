@@ -1,0 +1,8 @@
+[01m[K/home/zkxt/Documents/TK30/bianjiexiongkong/src/communication/src/protocol_parser.cpp:[m[K In member function ‘[01m[Kbool communication::ProtocolParser::parseVehicleState(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[01m[K/home/zkxt/Documents/TK30/bianjiexiongkong/src/communication/src/protocol_parser.cpp:63:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kplatform_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   63 |     uint8_t [01;35m[Kplatform_id[m[K = data[8];
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/zkxt/Documents/TK30/bianjiexiongkong/src/communication/src/protocol_parser.cpp:[m[K In member function ‘[01m[Kbool communication::ProtocolParser::parseVoiceText(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[01m[K/home/zkxt/Documents/TK30/bianjiexiongkong/src/communication/src/protocol_parser.cpp:188:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  188 |     if ([01;35m[Kdata.size() != 8 + length[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~[m[K

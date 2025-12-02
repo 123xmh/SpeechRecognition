@@ -1,0 +1,386 @@
+[0.010s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy /usr/bin/cmake /home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces -DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces
+[0.300s] -- The C compiler identification is GNU 9.4.0
+[0.645s] -- The CXX compiler identification is GNU 9.4.0
+[0.703s] -- Check for working C compiler: /usr/bin/cc
+[0.917s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.917s] -- Detecting C compiler ABI info
+[1.127s] -- Detecting C compiler ABI info - done
+[1.165s] -- Detecting C compile features
+[1.169s] -- Detecting C compile features - done
+[1.186s] -- Check for working CXX compiler: /usr/bin/c++
+[1.531s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.536s] -- Detecting CXX compiler ABI info
+[1.747s] -- Detecting CXX compiler ABI info - done
+[1.768s] -- Detecting CXX compile features
+[1.769s] -- Detecting CXX compile features - done
+[1.784s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.868s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.869s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.244s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.261s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.551s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.592s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.790s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.920s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.377s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.884s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.896s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.976s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.977s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.977s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.977s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.009s] -- Found PythonExtra: .so  
+[4.184s] -- Configuring done
+[4.288s] -- Generating done
+[4.326s] -- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces
+[4.343s] Invoked command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy /usr/bin/cmake /home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces -DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces
+[4.344s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy /usr/bin/cmake --build /home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces -- -j8 -l8
+[4.436s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.447s] [35m[1mScanning dependencies of target chest_interfaces__cpp[0m
+[4.464s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.605s] [  2%] Built target chest_interfaces__cpp
+[6.609s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_generator_c[0m
+[6.632s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.656s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.668s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.695s] [  8%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/head_tracking__functions.c.o[0m
+[6.705s] [  9%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/button_state__functions.c.o[0m
+[6.710s] [ 11%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/equipment_state__functions.c.o[0m
+[6.745s] [ 12%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/video_source__functions.c.o[0m
+[6.766s] [ 14%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/voice_command__functions.c.o[0m
+[6.881s] [ 15%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/voice_text__functions.c.o[0m
+[7.020s] [ 16%] [32m[1mLinking C shared library libchest_interfaces__rosidl_generator_c.so[0m
+[7.099s] [ 16%] Built target chest_interfaces__rosidl_generator_c
+[7.145s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.184s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.931s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_cpp[0m
+[9.060s] [ 21%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/button_state__type_support.cpp.o[0m
+[9.069s] [ 22%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/equipment_state__type_support.cpp.o[0m
+[9.089s] [ 23%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/head_tracking__type_support.cpp.o[0m
+[9.099s] [ 25%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/video_source__type_support.cpp.o[0m
+[9.110s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_c[0m
+[9.122s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_introspection_cpp[0m
+[9.215s] [ 26%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/button_state__type_support.cpp.o[0m
+[9.216s] [ 28%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/button_state__type_support.cpp.o[0m
+[9.403s] [ 29%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/equipment_state__type_support.cpp.o[0m
+[9.572s] [ 30%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/head_tracking__type_support.cpp.o[0m
+[9.729s] [ 32%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/video_source__type_support.cpp.o[0m
+[9.767s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[9.922s] [ 33%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/voice_command__type_support.cpp.o[0m
+[9.923s] [ 35%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/button_state__type_support.cpp.o[0m
+[10.031s] [ 36%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/equipment_state__type_support.cpp.o[0m
+[10.037s] [ 38%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/voice_text__type_support.cpp.o[0m
+[10.122s] [ 39%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/voice_command__type_support.cpp.o[0m
+[10.146s] [ 40%] [32m[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_c.so[0m
+[10.296s] [ 40%] Built target chest_interfaces__rosidl_typesupport_c
+[10.322s] [ 42%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/head_tracking__type_support.cpp.o[0m
+[10.348s] [ 43%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/video_source__type_support.cpp.o[0m
+[10.898s] [ 45%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/equipment_state__type_support.cpp.o[0m
+[11.013s] [ 46%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/voice_text__type_support.cpp.o[0m
+[11.154s] [ 47%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/voice_command__type_support.cpp.o[0m
+[11.528s] [ 49%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/head_tracking__type_support.cpp.o[0m
+[11.575s] [ 50%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/voice_text__type_support.cpp.o[0m
+[11.848s] [ 52%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/video_source__type_support.cpp.o[0m
+[12.630s] [ 53%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/voice_command__type_support.cpp.o[0m
+[12.792s] [ 54%] [32m[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_cpp.so[0m
+[13.033s] [ 56%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/voice_text__type_support.cpp.o[0m
+[13.089s] [ 56%] Built target chest_interfaces__rosidl_typesupport_cpp
+[13.260s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_introspection_c[0m
+[13.357s] [ 57%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/button_state__type_support.c.o[0m
+[13.359s] [ 59%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/equipment_state__type_support.c.o[0m
+[13.435s] [ 60%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/head_tracking__type_support.c.o[0m
+[13.438s] [ 61%] [32m[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.449s] [ 63%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/video_source__type_support.c.o[0m
+[13.587s] [ 64%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_text__type_support.c.o[0m
+[13.592s] [ 66%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_command__type_support.c.o[0m
+[13.786s] [ 67%] [32m[1mLinking C shared library libchest_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.955s] [ 67%] Built target chest_interfaces__rosidl_typesupport_introspection_c
+[13.965s] [ 67%] Built target chest_interfaces__rosidl_typesupport_introspection_cpp
+[14.340s] [ 69%] [32m[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.627s] [ 69%] Built target chest_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.671s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.621s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_fastrtps_c[0m
+[16.708s] [ 71%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/equipment_state__type_support_c.cpp.o[0m
+[16.724s] [ 73%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/button_state__type_support_c.cpp.o[0m
+[16.726s] [ 76%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/video_source__type_support_c.cpp.o[0m
+[16.728s] [ 77%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/head_tracking__type_support_c.cpp.o[0m
+[16.728s] [ 76%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/voice_command__type_support_c.cpp.o[0m
+[16.743s] [ 78%] [32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/voice_text__type_support_c.cpp.o[0m
+[18.084s] [ 80%] [32m[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[18.256s] [ 80%] Built target chest_interfaces__rosidl_typesupport_fastrtps_c
+[18.275s] [35m[1mScanning dependencies of target chest_interfaces[0m
+[18.320s] [ 80%] Built target chest_interfaces
+[18.361s] [35m[1mScanning dependencies of target chest_interfaces__py[0m
+[18.413s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.185s] [ 81%] Built target chest_interfaces__py
+[22.236s] [35m[1mScanning dependencies of target chest_interfaces__python[0m
+[22.321s] [ 83%] [32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_button_state_s.c.o[0m
+[22.326s] [ 84%] [32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_equipment_state_s.c.o[0m
+[22.347s] [ 85%] [32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_head_tracking_s.c.o[0m
+[22.348s] [ 87%] [32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_video_source_s.c.o[0m
+[22.354s] [ 88%] [32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_voice_command_s.c.o[0m
+[22.536s] [ 90%] [32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_voice_text_s.c.o[0m
+[22.839s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/chest_interfaces/libchest_interfaces__python.so[0m
+[22.939s] [ 91%] Built target chest_interfaces__python
+[22.958s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_c__pyext[0m
+[22.965s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[22.991s] [35m[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[23.000s] [ 92%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chest_interfaces/_chest_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[23.023s] [ 94%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chest_interfaces/_chest_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.076s] [ 95%] [32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chest_interfaces/_chest_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.196s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/chest_interfaces/chest_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[23.275s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/chest_interfaces/chest_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[23.340s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chest_interfaces/chest_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[23.352s] [100%] Built target chest_interfaces__rosidl_typesupport_c__pyext
+[23.414s] [100%] Built target chest_interfaces__rosidl_typesupport_introspection_c__pyext
+[23.427s] [100%] Built target chest_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[23.484s] Invoked command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy /usr/bin/cmake --build /home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces -- -j8 -l8
+[23.537s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy /usr/bin/cmake --install /home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces
+[23.582s] -- Install configuration: ""
+[23.584s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/ament_index/resource_index/rosidl_interfaces/chest_interfaces
+[23.586s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces
+[23.588s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg
+[23.589s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_text.h
+[23.590s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_command.h
+[23.591s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail
+[23.592s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__functions.c
+[23.594s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__functions.h
+[23.595s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.h
+[23.596s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__functions.c
+[23.598s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.h
+[23.599s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__functions.h
+[23.600s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__functions.c
+[23.601s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__struct.h
+[23.603s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.h
+[23.605s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__struct.h
+[23.606s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.h
+[23.606s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__struct.h
+[23.607s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__functions.c
+[23.607s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__functions.c
+[23.608s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__functions.h
+[23.608s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__functions.h
+[23.609s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__struct.h
+[23.609s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__functions.h
+[23.609s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__functions.h
+[23.610s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__functions.c
+[23.610s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.h
+[23.610s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.h
+[23.611s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__struct.h
+[23.611s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__struct.h
+[23.612s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/head_tracking.h
+[23.612s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/video_source.h
+[23.612s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_generator_c__visibility_control.h
+[23.613s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/equipment_state.h
+[23.617s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/button_state.h
+[23.617s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/library_path.sh
+[23.618s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/library_path.dsv
+[23.618s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_generator_c.so
+[23.619s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_generator_c.so" to ""
+[23.619s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces
+[23.619s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg
+[23.619s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail
+[23.619s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__rosidl_typesupport_fastrtps_c.h
+[23.619s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_fastrtps_c.h
+[23.620s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_fastrtps_c.h
+[23.620s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_fastrtps_c.h
+[23.624s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_fastrtps_c.h
+[23.624s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__rosidl_typesupport_fastrtps_c.h
+[23.624s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.625s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_fastrtps_c.so
+[23.625s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[23.625s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces
+[23.625s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg
+[23.625s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail
+[23.625s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_fastrtps_cpp.hpp
+[23.626s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_fastrtps_cpp.hpp
+[23.626s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_fastrtps_cpp.hpp
+[23.626s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__rosidl_typesupport_fastrtps_cpp.hpp
+[23.627s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_fastrtps_cpp.hpp
+[23.627s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__rosidl_typesupport_fastrtps_cpp.hpp
+[23.629s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/dds_fastrtps
+[23.629s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.630s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[23.648s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.649s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces
+[23.649s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg
+[23.650s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.650s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail
+[23.650s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.c
+[23.651s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_introspection_c.h
+[23.651s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__rosidl_typesupport_introspection_c.h
+[23.654s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.c
+[23.655s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_introspection_c.h
+[23.655s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.c
+[23.655s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.c
+[23.656s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_introspection_c.h
+[23.656s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__rosidl_typesupport_introspection_c.h
+[23.657s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.c
+[23.657s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.c
+[23.658s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_introspection_c.h
+[23.658s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_introspection_c.so
+[23.659s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[23.659s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_c.so
+[23.659s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_c.so" to ""
+[23.660s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces
+[23.660s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg
+[23.661s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/video_source.hpp
+[23.661s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_text.hpp
+[23.662s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/equipment_state.hpp
+[23.662s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_command.hpp
+[23.663s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail
+[23.663s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.hpp
+[23.664s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__builder.hpp
+[23.664s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__traits.hpp
+[23.665s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__builder.hpp
+[23.665s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__builder.hpp
+[23.666s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__builder.hpp
+[23.666s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.hpp
+[23.667s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.hpp
+[23.667s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__builder.hpp
+[23.668s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__traits.hpp
+[23.668s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__struct.hpp
+[23.669s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__traits.hpp
+[23.669s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__traits.hpp
+[23.669s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__builder.hpp
+[23.670s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__struct.hpp
+[23.671s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__struct.hpp
+[23.671s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__struct.hpp
+[23.672s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.hpp
+[23.672s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.hpp
+[23.673s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__traits.hpp
+[23.673s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__struct.hpp
+[23.673s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__struct.hpp
+[23.674s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__traits.hpp
+[23.674s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.hpp
+[23.675s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/head_tracking.hpp
+[23.675s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.676s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/button_state.hpp
+[23.676s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces
+[23.676s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg
+[23.677s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail
+[23.677s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.cpp
+[23.678s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.cpp
+[23.678s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_introspection_cpp.hpp
+[23.679s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_introspection_cpp.hpp
+[23.679s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.cpp
+[23.680s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.cpp
+[23.680s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.cpp
+[23.681s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__rosidl_typesupport_introspection_cpp.hpp
+[23.681s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.cpp
+[23.682s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__rosidl_typesupport_introspection_cpp.hpp
+[23.682s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_introspection_cpp.hpp
+[23.682s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_introspection_cpp.hpp
+[23.683s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_introspection_cpp.so
+[23.683s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[23.684s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_cpp.so
+[23.684s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_cpp.so" to ""
+[23.685s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/pythonpath.sh
+[23.685s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/pythonpath.dsv
+[23.686s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/__init__.py
+[23.704s] Compiling '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/__init__.py'...
+[23.713s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg
+[23.714s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_voice_command.py
+[23.715s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_equipment_state.py
+[23.716s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_video_source_s.c
+[23.716s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_head_tracking_s.c
+[23.717s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_voice_command_s.c
+[23.717s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_button_state.py
+[23.718s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/__init__.py
+[23.719s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_button_state_s.c
+[23.719s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_equipment_state_s.c
+[23.720s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_voice_text.py
+[23.720s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_head_tracking.py
+[23.721s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_video_source.py
+[23.721s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_voice_text_s.c
+[23.722s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[23.722s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[23.722s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[23.722s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[23.723s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[23.723s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[23.723s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__python.so
+[23.723s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__python.so" to ""
+[23.723s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/ButtonState.idl
+[23.723s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/EquipmentState.idl
+[23.723s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/HeadTracking.idl
+[23.723s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VideoSource.idl
+[23.723s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VoiceCommand.idl
+[23.724s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VoiceText.idl
+[23.724s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/ButtonState.msg
+[23.724s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/EquipmentState.msg
+[23.724s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/HeadTracking.msg
+[23.724s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VideoSource.msg
+[23.724s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VoiceCommand.msg
+[23.724s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VoiceText.msg
+[23.724s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces
+[23.724s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/video_source.hpp
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_text.hpp
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/equipment_state.hpp
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_command.hpp
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.hpp
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__builder.hpp
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__traits.hpp
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__builder.hpp
+[23.725s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__builder.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__builder.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__builder.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__traits.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__struct.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__traits.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__traits.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__builder.hpp
+[23.726s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__struct.hpp
+[23.727s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__struct.hpp
+[23.727s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__struct.hpp
+[23.727s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.hpp
+[23.727s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.hpp
+[23.727s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__traits.hpp
+[23.727s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__struct.hpp
+[23.727s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__struct.hpp
+[23.727s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__traits.hpp
+[23.728s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.hpp
+[23.728s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/head_tracking.hpp
+[23.728s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.728s] -- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/button_state.hpp
+[23.728s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/ament_index/resource_index/package_run_dependencies/chest_interfaces
+[23.728s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/ament_index/resource_index/parent_prefix_path/chest_interfaces
+[23.728s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/ament_prefix_path.sh
+[23.728s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/ament_prefix_path.dsv
+[23.728s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/path.sh
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/path.dsv
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/local_setup.bash
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/local_setup.sh
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/local_setup.zsh
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/local_setup.dsv
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/package.dsv
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/ament_index/resource_index/packages/chest_interfaces
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_generator_cExport.cmake
+[23.729s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_generator_cExport-noconfig.cmake
+[23.730s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[23.730s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.730s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_cExport.cmake
+[23.730s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[23.730s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_generator_cppExport.cmake
+[23.730s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[23.730s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.731s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_cppExport.cmake
+[23.731s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[23.732s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/rosidl_cmake-extras.cmake
+[23.733s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.734s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[23.735s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[23.735s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.735s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.735s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.735s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfacesConfig.cmake
+[23.735s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfacesConfig-version.cmake
+[23.736s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/package.xml
+[23.737s] Invoked command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy /usr/bin/cmake --install /home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces

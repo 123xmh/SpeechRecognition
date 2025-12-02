@@ -1,0 +1,1022 @@
+[0.000000] (-) TimerEvent: {}
+[0.000732] (-) JobUnselected: {'identifier': 'communication'}
+[0.000832] (-) JobUnselected: {'identifier': 'web_monitor'}
+[0.000904] (chest_interfaces) JobQueued: {'identifier': 'chest_interfaces', 'dependencies': OrderedDict()}
+[0.000969] (ar_display) JobQueued: {'identifier': 'ar_display', 'dependencies': OrderedDict([('chest_interfaces', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces')])}
+[0.001023] (button_simulator) JobQueued: {'identifier': 'button_simulator', 'dependencies': OrderedDict([('chest_interfaces', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces')])}
+[0.001063] (controller_display) JobQueued: {'identifier': 'controller_display', 'dependencies': OrderedDict([('chest_interfaces', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces')])}
+[0.001100] (head_tracking) JobQueued: {'identifier': 'head_tracking', 'dependencies': OrderedDict([('chest_interfaces', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces')])}
+[0.001135] (video_source_loader) JobQueued: {'identifier': 'video_source_loader', 'dependencies': OrderedDict([('chest_interfaces', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces')])}
+[0.001172] (voice_processing) JobQueued: {'identifier': 'voice_processing', 'dependencies': OrderedDict([('chest_interfaces', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces')])}
+[0.001210] (chest_interfaces) JobStarted: {'identifier': 'chest_interfaces'}
+[0.008816] (chest_interfaces) JobProgress: {'identifier': 'chest_interfaces', 'progress': 'cmake'}
+[0.009601] (chest_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.089772] (-) TimerEvent: {}
+[0.190316] (-) TimerEvent: {}
+[0.291107] (-) TimerEvent: {}
+[0.300522] (chest_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.391309] (-) TimerEvent: {}
+[0.492117] (-) TimerEvent: {}
+[0.593051] (-) TimerEvent: {}
+[0.645864] (chest_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.693146] (-) TimerEvent: {}
+[0.704376] (chest_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.793265] (-) TimerEvent: {}
+[0.893677] (-) TimerEvent: {}
+[0.918259] (chest_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.918552] (chest_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.993791] (-) TimerEvent: {}
+[1.094178] (-) TimerEvent: {}
+[1.127644] (chest_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.166115] (chest_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.169422] (chest_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.186522] (chest_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.194406] (-) TimerEvent: {}
+[1.295157] (-) TimerEvent: {}
+[1.395926] (-) TimerEvent: {}
+[1.496780] (-) TimerEvent: {}
+[1.531540] (chest_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.536649] (chest_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.596875] (-) TimerEvent: {}
+[1.697293] (-) TimerEvent: {}
+[1.748153] (chest_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.769083] (chest_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.770244] (chest_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.785104] (chest_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.797619] (-) TimerEvent: {}
+[1.868468] (chest_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.869739] (chest_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.897763] (-) TimerEvent: {}
+[1.998493] (-) TimerEvent: {}
+[2.099283] (-) TimerEvent: {}
+[2.200050] (-) TimerEvent: {}
+[2.244788] (chest_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.251832] (chest_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.261624] (chest_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.300248] (-) TimerEvent: {}
+[2.401652] (-) TimerEvent: {}
+[2.502083] (-) TimerEvent: {}
+[2.551715] (chest_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.592730] (chest_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.602273] (-) TimerEvent: {}
+[2.703017] (-) TimerEvent: {}
+[2.724062] (chest_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.791384] (chest_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[2.803110] (-) TimerEvent: {}
+[2.903491] (-) TimerEvent: {}
+[2.920883] (chest_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.003658] (-) TimerEvent: {}
+[3.104122] (-) TimerEvent: {}
+[3.204518] (-) TimerEvent: {}
+[3.304915] (-) TimerEvent: {}
+[3.377751] (chest_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.405028] (-) TimerEvent: {}
+[3.505429] (-) TimerEvent: {}
+[3.605812] (-) TimerEvent: {}
+[3.696015] (chest_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.705916] (-) TimerEvent: {}
+[3.806304] (-) TimerEvent: {}
+[3.822459] (chest_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.884609] (chest_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.897506] (chest_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.906475] (-) TimerEvent: {}
+[3.977311] (chest_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.977689] (chest_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.977823] (chest_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.977924] (chest_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[4.009624] (chest_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.009915] (-) TimerEvent: {}
+[4.110206] (-) TimerEvent: {}
+[4.184822] (chest_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.210381] (-) TimerEvent: {}
+[4.289198] (chest_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.310603] (-) TimerEvent: {}
+[4.327410] (chest_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces\n'}
+[4.343835] (chest_interfaces) CommandEnded: {'returncode': 0}
+[4.344773] (chest_interfaces) JobProgress: {'identifier': 'chest_interfaces', 'progress': 'build'}
+[4.344826] (chest_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[4.410849] (-) TimerEvent: {}
+[4.436280] (chest_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.448405] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__cpp\x1b[0m\n'}
+[4.465463] (chest_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.510890] (-) TimerEvent: {}
+[4.611275] (-) TimerEvent: {}
+[4.711683] (-) TimerEvent: {}
+[4.812119] (-) TimerEvent: {}
+[4.912505] (-) TimerEvent: {}
+[5.012859] (-) TimerEvent: {}
+[5.113237] (-) TimerEvent: {}
+[5.213623] (-) TimerEvent: {}
+[5.314016] (-) TimerEvent: {}
+[5.414409] (-) TimerEvent: {}
+[5.514816] (-) TimerEvent: {}
+[5.615204] (-) TimerEvent: {}
+[5.715584] (-) TimerEvent: {}
+[5.816072] (-) TimerEvent: {}
+[5.916465] (-) TimerEvent: {}
+[6.016910] (-) TimerEvent: {}
+[6.117648] (-) TimerEvent: {}
+[6.218380] (-) TimerEvent: {}
+[6.319146] (-) TimerEvent: {}
+[6.420130] (-) TimerEvent: {}
+[6.521101] (-) TimerEvent: {}
+[6.605679] (chest_interfaces) StdoutLine: {'line': b'[  2%] Built target chest_interfaces__cpp\n'}
+[6.609837] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_generator_c\x1b[0m\n'}
+[6.621326] (-) TimerEvent: {}
+[6.632398] (chest_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.656451] (chest_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.668674] (chest_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.695988] (chest_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/head_tracking__functions.c.o\x1b[0m\n'}
+[6.706187] (chest_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/button_state__functions.c.o\x1b[0m\n'}
+[6.710857] (chest_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/equipment_state__functions.c.o\x1b[0m\n'}
+[6.721487] (-) TimerEvent: {}
+[6.745936] (chest_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/video_source__functions.c.o\x1b[0m\n'}
+[6.766519] (chest_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/voice_command__functions.c.o\x1b[0m\n'}
+[6.821697] (-) TimerEvent: {}
+[6.881531] (chest_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chest_interfaces/msg/detail/voice_text__functions.c.o\x1b[0m\n'}
+[6.921878] (-) TimerEvent: {}
+[7.021082] (chest_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libchest_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.021982] (-) TimerEvent: {}
+[7.100191] (chest_interfaces) StdoutLine: {'line': b'[ 16%] Built target chest_interfaces__rosidl_generator_c\n'}
+[7.122180] (-) TimerEvent: {}
+[7.145208] (chest_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.184590] (chest_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.222344] (-) TimerEvent: {}
+[7.323077] (-) TimerEvent: {}
+[7.423794] (-) TimerEvent: {}
+[7.524498] (-) TimerEvent: {}
+[7.625220] (-) TimerEvent: {}
+[7.729471] (-) TimerEvent: {}
+[7.830265] (-) TimerEvent: {}
+[7.931247] (-) TimerEvent: {}
+[8.031956] (-) TimerEvent: {}
+[8.132714] (-) TimerEvent: {}
+[8.233631] (-) TimerEvent: {}
+[8.334356] (-) TimerEvent: {}
+[8.435235] (-) TimerEvent: {}
+[8.535957] (-) TimerEvent: {}
+[8.636730] (-) TimerEvent: {}
+[8.737544] (-) TimerEvent: {}
+[8.838317] (-) TimerEvent: {}
+[8.931366] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.938496] (-) TimerEvent: {}
+[9.039311] (-) TimerEvent: {}
+[9.060792] (chest_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/button_state__type_support.cpp.o\x1b[0m\n'}
+[9.069342] (chest_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/equipment_state__type_support.cpp.o\x1b[0m\n'}
+[9.089692] (chest_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/head_tracking__type_support.cpp.o\x1b[0m\n'}
+[9.099943] (chest_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/video_source__type_support.cpp.o\x1b[0m\n'}
+[9.110592] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[9.122300] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.139500] (-) TimerEvent: {}
+[9.215842] (chest_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/button_state__type_support.cpp.o\x1b[0m\n'}
+[9.216899] (chest_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/button_state__type_support.cpp.o\x1b[0m\n'}
+[9.239665] (-) TimerEvent: {}
+[9.340437] (-) TimerEvent: {}
+[9.403254] (chest_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/equipment_state__type_support.cpp.o\x1b[0m\n'}
+[9.440793] (-) TimerEvent: {}
+[9.541713] (-) TimerEvent: {}
+[9.572442] (chest_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/head_tracking__type_support.cpp.o\x1b[0m\n'}
+[9.641933] (-) TimerEvent: {}
+[9.730126] (chest_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/video_source__type_support.cpp.o\x1b[0m\n'}
+[9.742116] (-) TimerEvent: {}
+[9.767295] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.842360] (-) TimerEvent: {}
+[9.923169] (chest_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/voice_command__type_support.cpp.o\x1b[0m\n'}
+[9.924007] (chest_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/button_state__type_support.cpp.o\x1b[0m\n'}
+[9.942547] (-) TimerEvent: {}
+[10.031374] (chest_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/equipment_state__type_support.cpp.o\x1b[0m\n'}
+[10.037305] (chest_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chest_interfaces/msg/voice_text__type_support.cpp.o\x1b[0m\n'}
+[10.045247] (-) TimerEvent: {}
+[10.123127] (chest_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/voice_command__type_support.cpp.o\x1b[0m\n'}
+[10.146383] (-) TimerEvent: {}
+[10.147080] (chest_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.246586] (-) TimerEvent: {}
+[10.297026] (chest_interfaces) StdoutLine: {'line': b'[ 40%] Built target chest_interfaces__rosidl_typesupport_c\n'}
+[10.323144] (chest_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/head_tracking__type_support.cpp.o\x1b[0m\n'}
+[10.346767] (-) TimerEvent: {}
+[10.348957] (chest_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/video_source__type_support.cpp.o\x1b[0m\n'}
+[10.446949] (-) TimerEvent: {}
+[10.547705] (-) TimerEvent: {}
+[10.648480] (-) TimerEvent: {}
+[10.749250] (-) TimerEvent: {}
+[10.850032] (-) TimerEvent: {}
+[10.898919] (chest_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/equipment_state__type_support.cpp.o\x1b[0m\n'}
+[10.950220] (-) TimerEvent: {}
+[11.013282] (chest_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chest_interfaces/msg/voice_text__type_support.cpp.o\x1b[0m\n'}
+[11.050397] (-) TimerEvent: {}
+[11.151148] (-) TimerEvent: {}
+[11.154608] (chest_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/voice_command__type_support.cpp.o\x1b[0m\n'}
+[11.251245] (-) TimerEvent: {}
+[11.351645] (-) TimerEvent: {}
+[11.452039] (-) TimerEvent: {}
+[11.528607] (chest_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/head_tracking__type_support.cpp.o\x1b[0m\n'}
+[11.552163] (-) TimerEvent: {}
+[11.575769] (chest_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chest_interfaces/msg/detail/voice_text__type_support.cpp.o\x1b[0m\n'}
+[11.652283] (-) TimerEvent: {}
+[11.752703] (-) TimerEvent: {}
+[11.848470] (chest_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/video_source__type_support.cpp.o\x1b[0m\n'}
+[11.852822] (-) TimerEvent: {}
+[11.953202] (-) TimerEvent: {}
+[12.053753] (-) TimerEvent: {}
+[12.154153] (-) TimerEvent: {}
+[12.254565] (-) TimerEvent: {}
+[12.355012] (-) TimerEvent: {}
+[12.455419] (-) TimerEvent: {}
+[12.555842] (-) TimerEvent: {}
+[12.631420] (chest_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/voice_command__type_support.cpp.o\x1b[0m\n'}
+[12.655962] (-) TimerEvent: {}
+[12.756390] (-) TimerEvent: {}
+[12.792974] (chest_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.856506] (-) TimerEvent: {}
+[12.956928] (-) TimerEvent: {}
+[13.034460] (chest_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chest_interfaces/msg/detail/dds_fastrtps/voice_text__type_support.cpp.o\x1b[0m\n'}
+[13.057056] (-) TimerEvent: {}
+[13.089610] (chest_interfaces) StdoutLine: {'line': b'[ 56%] Built target chest_interfaces__rosidl_typesupport_cpp\n'}
+[13.157283] (-) TimerEvent: {}
+[13.258083] (-) TimerEvent: {}
+[13.261005] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.357524] (chest_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/button_state__type_support.c.o\x1b[0m\n'}
+[13.358277] (-) TimerEvent: {}
+[13.359813] (chest_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/equipment_state__type_support.c.o\x1b[0m\n'}
+[13.435399] (chest_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/head_tracking__type_support.c.o\x1b[0m\n'}
+[13.439079] (chest_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.449849] (chest_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/video_source__type_support.c.o\x1b[0m\n'}
+[13.458523] (-) TimerEvent: {}
+[13.559425] (-) TimerEvent: {}
+[13.587981] (chest_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_text__type_support.c.o\x1b[0m\n'}
+[13.592658] (chest_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_command__type_support.c.o\x1b[0m\n'}
+[13.659647] (-) TimerEvent: {}
+[13.760500] (-) TimerEvent: {}
+[13.787068] (chest_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libchest_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.860700] (-) TimerEvent: {}
+[13.955845] (chest_interfaces) StdoutLine: {'line': b'[ 67%] Built target chest_interfaces__rosidl_typesupport_introspection_c\n'}
+[13.960942] (-) TimerEvent: {}
+[13.966005] (chest_interfaces) StdoutLine: {'line': b'[ 67%] Built target chest_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[14.061168] (-) TimerEvent: {}
+[14.162020] (-) TimerEvent: {}
+[14.262874] (-) TimerEvent: {}
+[14.341033] (chest_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.362952] (-) TimerEvent: {}
+[14.463363] (-) TimerEvent: {}
+[14.563768] (-) TimerEvent: {}
+[14.627389] (chest_interfaces) StdoutLine: {'line': b'[ 69%] Built target chest_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.664005] (-) TimerEvent: {}
+[14.671387] (chest_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.764165] (-) TimerEvent: {}
+[14.865000] (-) TimerEvent: {}
+[14.965815] (-) TimerEvent: {}
+[15.066624] (-) TimerEvent: {}
+[15.167429] (-) TimerEvent: {}
+[15.268167] (-) TimerEvent: {}
+[15.368873] (-) TimerEvent: {}
+[15.469666] (-) TimerEvent: {}
+[15.570536] (-) TimerEvent: {}
+[15.671374] (-) TimerEvent: {}
+[15.772120] (-) TimerEvent: {}
+[15.872927] (-) TimerEvent: {}
+[15.973786] (-) TimerEvent: {}
+[16.074576] (-) TimerEvent: {}
+[16.179247] (-) TimerEvent: {}
+[16.280044] (-) TimerEvent: {}
+[16.380798] (-) TimerEvent: {}
+[16.481550] (-) TimerEvent: {}
+[16.589601] (-) TimerEvent: {}
+[16.622339] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[16.689721] (-) TimerEvent: {}
+[16.708648] (chest_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/equipment_state__type_support_c.cpp.o\x1b[0m\n'}
+[16.725090] (chest_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/button_state__type_support_c.cpp.o\x1b[0m\n'}
+[16.726878] (chest_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/video_source__type_support_c.cpp.o\x1b[0m\n'}
+[16.728352] (chest_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/head_tracking__type_support_c.cpp.o\x1b[0m\n'}
+[16.729097] (chest_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/voice_command__type_support_c.cpp.o\x1b[0m\n'}
+[16.743198] (chest_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chest_interfaces/msg/detail/voice_text__type_support_c.cpp.o\x1b[0m\n'}
+[16.789963] (-) TimerEvent: {}
+[16.890778] (-) TimerEvent: {}
+[16.991570] (-) TimerEvent: {}
+[17.092376] (-) TimerEvent: {}
+[17.193210] (-) TimerEvent: {}
+[17.294047] (-) TimerEvent: {}
+[17.396930] (-) TimerEvent: {}
+[17.497958] (-) TimerEvent: {}
+[17.598848] (-) TimerEvent: {}
+[17.699658] (-) TimerEvent: {}
+[17.800486] (-) TimerEvent: {}
+[17.901304] (-) TimerEvent: {}
+[18.002109] (-) TimerEvent: {}
+[18.084730] (chest_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libchest_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.102208] (-) TimerEvent: {}
+[18.202632] (-) TimerEvent: {}
+[18.256910] (chest_interfaces) StdoutLine: {'line': b'[ 80%] Built target chest_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[18.275870] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces\x1b[0m\n'}
+[18.303202] (-) TimerEvent: {}
+[18.320683] (chest_interfaces) StdoutLine: {'line': b'[ 80%] Built target chest_interfaces\n'}
+[18.362425] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__py\x1b[0m\n'}
+[18.403295] (-) TimerEvent: {}
+[18.414465] (chest_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.503397] (-) TimerEvent: {}
+[18.603811] (-) TimerEvent: {}
+[18.704215] (-) TimerEvent: {}
+[18.804609] (-) TimerEvent: {}
+[18.905075] (-) TimerEvent: {}
+[19.005845] (-) TimerEvent: {}
+[19.106645] (-) TimerEvent: {}
+[19.207404] (-) TimerEvent: {}
+[19.308182] (-) TimerEvent: {}
+[19.408958] (-) TimerEvent: {}
+[19.509790] (-) TimerEvent: {}
+[19.610547] (-) TimerEvent: {}
+[19.711288] (-) TimerEvent: {}
+[19.812166] (-) TimerEvent: {}
+[19.913788] (-) TimerEvent: {}
+[20.014184] (-) TimerEvent: {}
+[20.114643] (-) TimerEvent: {}
+[20.215394] (-) TimerEvent: {}
+[20.316174] (-) TimerEvent: {}
+[20.416942] (-) TimerEvent: {}
+[20.517743] (-) TimerEvent: {}
+[20.618535] (-) TimerEvent: {}
+[20.719263] (-) TimerEvent: {}
+[20.820087] (-) TimerEvent: {}
+[20.920900] (-) TimerEvent: {}
+[21.021740] (-) TimerEvent: {}
+[21.122554] (-) TimerEvent: {}
+[21.222966] (-) TimerEvent: {}
+[21.323367] (-) TimerEvent: {}
+[21.423746] (-) TimerEvent: {}
+[21.524128] (-) TimerEvent: {}
+[21.624516] (-) TimerEvent: {}
+[21.725018] (-) TimerEvent: {}
+[21.825767] (-) TimerEvent: {}
+[21.926514] (-) TimerEvent: {}
+[22.027237] (-) TimerEvent: {}
+[22.128404] (-) TimerEvent: {}
+[22.185709] (chest_interfaces) StdoutLine: {'line': b'[ 81%] Built target chest_interfaces__py\n'}
+[22.228621] (-) TimerEvent: {}
+[22.237005] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__python\x1b[0m\n'}
+[22.322007] (chest_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_button_state_s.c.o\x1b[0m\n'}
+[22.327050] (chest_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_equipment_state_s.c.o\x1b[0m\n'}
+[22.328675] (-) TimerEvent: {}
+[22.348110] (chest_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_head_tracking_s.c.o\x1b[0m\n'}
+[22.349236] (chest_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_video_source_s.c.o\x1b[0m\n'}
+[22.355165] (chest_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_voice_command_s.c.o\x1b[0m\n'}
+[22.428813] (-) TimerEvent: {}
+[22.529309] (-) TimerEvent: {}
+[22.536936] (chest_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__python.dir/rosidl_generator_py/chest_interfaces/msg/_voice_text_s.c.o\x1b[0m\n'}
+[22.629411] (-) TimerEvent: {}
+[22.729888] (-) TimerEvent: {}
+[22.830290] (-) TimerEvent: {}
+[22.840489] (chest_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chest_interfaces/libchest_interfaces__python.so\x1b[0m\n'}
+[22.930404] (-) TimerEvent: {}
+[22.939557] (chest_interfaces) StdoutLine: {'line': b'[ 91%] Built target chest_interfaces__python\n'}
+[22.958851] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[22.965897] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[22.991855] (chest_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target chest_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[23.001099] (chest_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chest_interfaces/_chest_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[23.023273] (chest_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chest_interfaces/_chest_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[23.030633] (-) TimerEvent: {}
+[23.076923] (chest_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/chest_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chest_interfaces/_chest_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[23.130889] (-) TimerEvent: {}
+[23.197372] (chest_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chest_interfaces/chest_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.230998] (-) TimerEvent: {}
+[23.276314] (chest_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/chest_interfaces/chest_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.331126] (-) TimerEvent: {}
+[23.341113] (chest_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chest_interfaces/chest_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.353348] (chest_interfaces) StdoutLine: {'line': b'[100%] Built target chest_interfaces__rosidl_typesupport_c__pyext\n'}
+[23.414820] (chest_interfaces) StdoutLine: {'line': b'[100%] Built target chest_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[23.428373] (chest_interfaces) StdoutLine: {'line': b'[100%] Built target chest_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.431225] (-) TimerEvent: {}
+[23.482569] (chest_interfaces) CommandEnded: {'returncode': 0}
+[23.487419] (chest_interfaces) JobProgress: {'identifier': 'chest_interfaces', 'progress': 'install'}
+[23.535079] (chest_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[23.539989] (-) TimerEvent: {}
+[23.583060] (chest_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.584905] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/ament_index/resource_index/rosidl_interfaces/chest_interfaces\n'}
+[23.586977] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces\n'}
+[23.588342] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg\n'}
+[23.589495] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_text.h\n'}
+[23.590799] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_command.h\n'}
+[23.592034] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail\n'}
+[23.593199] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__functions.c\n'}
+[23.594606] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__functions.h\n'}
+[23.595840] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.h\n'}
+[23.597077] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__functions.c\n'}
+[23.598413] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.h\n'}
+[23.599668] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__functions.h\n'}
+[23.600947] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__functions.c\n'}
+[23.602283] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__struct.h\n'}
+[23.603641] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.h\n'}
+[23.605741] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__struct.h\n'}
+[23.606499] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.h\n'}
+[23.607406] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__struct.h\n'}
+[23.607940] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__functions.c\n'}
+[23.608285] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__functions.c\n'}
+[23.608759] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__functions.h\n'}
+[23.609103] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__functions.h\n'}
+[23.609881] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__struct.h\n'}
+[23.610026] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__functions.h\n'}
+[23.610282] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__functions.h\n'}
+[23.610736] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__functions.c\n'}
+[23.611160] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.h\n'}
+[23.611484] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.h\n'}
+[23.611847] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__struct.h\n'}
+[23.612272] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__struct.h\n'}
+[23.612673] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/head_tracking.h\n'}
+[23.613085] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/video_source.h\n'}
+[23.613480] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.613892] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/equipment_state.h\n'}
+[23.618147] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/button_state.h\n'}
+[23.618424] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/library_path.sh\n'}
+[23.618580] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/library_path.dsv\n'}
+[23.619448] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_generator_c.so\n'}
+[23.619700] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_generator_c.so" to ""\n'}
+[23.620014] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces\n'}
+[23.620131] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg\n'}
+[23.620253] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail\n'}
+[23.620429] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__rosidl_typesupport_fastrtps_c.h\n'}
+[23.620552] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_fastrtps_c.h\n'}
+[23.620724] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_fastrtps_c.h\n'}
+[23.621116] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_fastrtps_c.h\n'}
+[23.621955] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_fastrtps_c.h\n'}
+[23.624831] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__rosidl_typesupport_fastrtps_c.h\n'}
+[23.624965] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.625063] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[23.626089] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.626221] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces\n'}
+[23.626320] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg\n'}
+[23.626413] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail\n'}
+[23.626596] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.626714] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.626897] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.627284] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.627693] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.628077] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.629646] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/dds_fastrtps\n'}
+[23.630142] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.630805] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.640176] (-) TimerEvent: {}
+[23.643087] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.649482] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces\n'}
+[23.649960] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg\n'}
+[23.650502] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.650936] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail\n'}
+[23.651361] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.c\n'}
+[23.651786] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_introspection_c.h\n'}
+[23.652213] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__rosidl_typesupport_introspection_c.h\n'}
+[23.652638] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.c\n'}
+[23.655486] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_introspection_c.h\n'}
+[23.655931] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.c\n'}
+[23.656384] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.c\n'}
+[23.656819] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_introspection_c.h\n'}
+[23.657247] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__rosidl_typesupport_introspection_c.h\n'}
+[23.657674] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.c\n'}
+[23.658102] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.c\n'}
+[23.658529] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_introspection_c.h\n'}
+[23.658958] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[23.659436] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.659937] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_c.so\n'}
+[23.660371] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[23.660816] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces\n'}
+[23.661243] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg\n'}
+[23.661671] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/video_source.hpp\n'}
+[23.662102] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_text.hpp\n'}
+[23.662535] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/equipment_state.hpp\n'}
+[23.662997] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_command.hpp\n'}
+[23.663438] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail\n'}
+[23.663909] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.hpp\n'}
+[23.664475] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__builder.hpp\n'}
+[23.665401] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__traits.hpp\n'}
+[23.665841] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__builder.hpp\n'}
+[23.666307] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__builder.hpp\n'}
+[23.666843] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__builder.hpp\n'}
+[23.667274] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.hpp\n'}
+[23.667702] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.hpp\n'}
+[23.668128] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__builder.hpp\n'}
+[23.668558] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__traits.hpp\n'}
+[23.668987] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__struct.hpp\n'}
+[23.669500] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__traits.hpp\n'}
+[23.669971] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__traits.hpp\n'}
+[23.670400] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__builder.hpp\n'}
+[23.670829] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__struct.hpp\n'}
+[23.671666] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__struct.hpp\n'}
+[23.672105] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__struct.hpp\n'}
+[23.672535] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.hpp\n'}
+[23.672991] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.hpp\n'}
+[23.673432] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__traits.hpp\n'}
+[23.673862] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__struct.hpp\n'}
+[23.674293] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__struct.hpp\n'}
+[23.674723] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__traits.hpp\n'}
+[23.675150] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.hpp\n'}
+[23.675580] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/head_tracking.hpp\n'}
+[23.676009] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.676478] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/button_state.hpp\n'}
+[23.676912] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces\n'}
+[23.677371] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg\n'}
+[23.677863] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail\n'}
+[23.678307] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.cpp\n'}
+[23.678751] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.cpp\n'}
+[23.679214] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.679766] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.680216] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.cpp\n'}
+[23.680646] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.cpp\n'}
+[23.681077] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.cpp\n'}
+[23.681507] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.681939] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.cpp\n'}
+[23.682367] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.682912] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.683363] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.683793] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[23.684221] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.684650] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_cpp.so\n'}
+[23.685079] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[23.685507] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/pythonpath.sh\n'}
+[23.685934] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/pythonpath.dsv\n'}
+[23.686437] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/__init__.py\n'}
+[23.705185] (chest_interfaces) StdoutLine: {'line': b"Compiling '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/__init__.py'...\n"}
+[23.713620] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg\n'}
+[23.714808] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_voice_command.py\n'}
+[23.715713] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_equipment_state.py\n'}
+[23.716358] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_video_source_s.c\n'}
+[23.716977] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_head_tracking_s.c\n'}
+[23.717520] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_voice_command_s.c\n'}
+[23.718236] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_button_state.py\n'}
+[23.718792] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/__init__.py\n'}
+[23.719354] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_button_state_s.c\n'}
+[23.719918] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_equipment_state_s.c\n'}
+[23.720663] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_voice_text.py\n'}
+[23.721281] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_head_tracking.py\n'}
+[23.721766] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_video_source.py\n'}
+[23.722231] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/msg/_voice_text_s.c\n'}
+[23.722830] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[23.723341] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[23.723503] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[23.723611] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[23.723710] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[23.723833] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages/chest_interfaces/chest_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[23.723971] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__python.so\n'}
+[23.724068] (chest_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/libchest_interfaces__python.so" to ""\n'}
+[23.724186] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/ButtonState.idl\n'}
+[23.724281] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/EquipmentState.idl\n'}
+[23.724398] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/HeadTracking.idl\n'}
+[23.724490] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VideoSource.idl\n'}
+[23.724606] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VoiceCommand.idl\n'}
+[23.724717] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VoiceText.idl\n'}
+[23.724818] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/ButtonState.msg\n'}
+[23.724936] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/EquipmentState.msg\n'}
+[23.725029] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/HeadTracking.msg\n'}
+[23.725144] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VideoSource.msg\n'}
+[23.725258] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VoiceCommand.msg\n'}
+[23.725367] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/msg/VoiceText.msg\n'}
+[23.725484] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces\n'}
+[23.725577] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg\n'}
+[23.725692] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/video_source.hpp\n'}
+[23.725784] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_text.hpp\n'}
+[23.725873] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/equipment_state.hpp\n'}
+[23.725963] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/voice_command.hpp\n'}
+[23.726078] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail\n'}
+[23.726183] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__type_support.hpp\n'}
+[23.726305] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__builder.hpp\n'}
+[23.726398] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__traits.hpp\n'}
+[23.726506] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__builder.hpp\n'}
+[23.726599] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__builder.hpp\n'}
+[23.726689] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__builder.hpp\n'}
+[23.726804] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__type_support.hpp\n'}
+[23.726895] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__type_support.hpp\n'}
+[23.727009] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__builder.hpp\n'}
+[23.727101] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__traits.hpp\n'}
+[23.727212] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/video_source__struct.hpp\n'}
+[23.727305] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__traits.hpp\n'}
+[23.727394] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__traits.hpp\n'}
+[23.727508] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__builder.hpp\n'}
+[23.727599] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__struct.hpp\n'}
+[23.727695] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__struct.hpp\n'}
+[23.727786] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__struct.hpp\n'}
+[23.727884] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/button_state__type_support.hpp\n'}
+[23.727981] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_command__type_support.hpp\n'}
+[23.728078] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/equipment_state__traits.hpp\n'}
+[23.728173] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__struct.hpp\n'}
+[23.728482] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__struct.hpp\n'}
+[23.728583] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/voice_text__traits.hpp\n'}
+[23.728680] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/detail/head_tracking__type_support.hpp\n'}
+[23.728776] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/head_tracking.hpp\n'}
+[23.728873] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.728969] (chest_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/include/chest_interfaces/msg/button_state.hpp\n'}
+[23.729066] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/ament_index/resource_index/package_run_dependencies/chest_interfaces\n'}
+[23.729162] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/ament_index/resource_index/parent_prefix_path/chest_interfaces\n'}
+[23.729309] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/ament_prefix_path.sh\n'}
+[23.729445] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/ament_prefix_path.dsv\n'}
+[23.729564] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/path.sh\n'}
+[23.729662] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/environment/path.dsv\n'}
+[23.729759] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/local_setup.bash\n'}
+[23.729855] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/local_setup.sh\n'}
+[23.729950] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/local_setup.zsh\n'}
+[23.730046] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/local_setup.dsv\n'}
+[23.730142] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/package.dsv\n'}
+[23.730279] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/ament_index/resource_index/packages/chest_interfaces\n'}
+[23.730383] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_generator_cExport.cmake\n'}
+[23.730482] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.730574] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.730878] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.730990] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[23.731085] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.731178] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_generator_cppExport.cmake\n'}
+[23.731271] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.731364] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.731580] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[23.732146] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.732674] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[23.733415] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.734587] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.735694] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.735824] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.735935] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.736043] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.736163] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfacesConfig.cmake\n'}
+[23.736272] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake/chest_interfacesConfig-version.cmake\n'}
+[23.736374] (chest_interfaces) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/package.xml\n'}
+[23.737306] (chest_interfaces) CommandEnded: {'returncode': 0}
+[23.740222] (-) TimerEvent: {}
+[23.840760] (-) TimerEvent: {}
+[23.858684] (chest_interfaces) JobEnded: {'identifier': 'chest_interfaces', 'rc': 0}
+[23.859926] (ar_display) JobStarted: {'identifier': 'ar_display'}
+[23.880780] (button_simulator) JobStarted: {'identifier': 'button_simulator'}
+[23.893928] (controller_display) JobStarted: {'identifier': 'controller_display'}
+[23.908087] (head_tracking) JobStarted: {'identifier': 'head_tracking'}
+[23.930336] (video_source_loader) JobStarted: {'identifier': 'video_source_loader'}
+[23.941011] (-) TimerEvent: {}
+[23.952760] (voice_processing) JobStarted: {'identifier': 'voice_processing'}
+[23.971238] (ar_display) JobProgress: {'identifier': 'ar_display', 'progress': 'cmake'}
+[23.972119] (ar_display) Command: {'cmd': ['/usr/bin/cmake', '/home/zkxt/Documents/TK30/bianjiexiongkong/src/ar_display', '-DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/ar_display', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/ar_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[23.996576] (button_simulator) JobProgress: {'identifier': 'button_simulator', 'progress': 'cmake'}
+[23.996918] (button_simulator) Command: {'cmd': ['/usr/bin/cmake', '/home/zkxt/Documents/TK30/bianjiexiongkong/src/button_simulator', '-DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/button_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/button_simulator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[24.006713] (controller_display) JobProgress: {'identifier': 'controller_display', 'progress': 'cmake'}
+[24.008819] (controller_display) Command: {'cmd': ['/usr/bin/cmake', '/home/zkxt/Documents/TK30/bianjiexiongkong/src/controller_display', '-DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[24.018273] (head_tracking) JobProgress: {'identifier': 'head_tracking', 'progress': 'cmake'}
+[24.021812] (head_tracking) Command: {'cmd': ['/usr/bin/cmake', '/home/zkxt/Documents/TK30/bianjiexiongkong/src/head_tracking', '-DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/head_tracking', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/head_tracking'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[24.042028] (-) TimerEvent: {}
+[24.047020] (video_source_loader) JobProgress: {'identifier': 'video_source_loader', 'progress': 'cmake'}
+[24.047397] (video_source_loader) Command: {'cmd': ['/usr/bin/cmake', '/home/zkxt/Documents/TK30/bianjiexiongkong/src/video_source_loader', '-DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[24.073746] (voice_processing) JobProgress: {'identifier': 'voice_processing', 'progress': 'cmake'}
+[24.078026] (voice_processing) Command: {'cmd': ['/usr/bin/cmake', '/home/zkxt/Documents/TK30/bianjiexiongkong/src/voice_processing', '-DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '900'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zkxt/Documents/TK30/bianjiexiongkong'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '778'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '88113'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:43327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1001,unix/ubuntu2004:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '9023024161f84a06b6caae9d3c6b0da7'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[24.142319] (-) TimerEvent: {}
+[24.156092] (ar_display) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[24.242560] (-) TimerEvent: {}
+[24.268223] (ar_display) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[24.277322] (ar_display) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[24.288562] (button_simulator) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[24.317095] (voice_processing) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[24.352897] (controller_display) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[24.353267] (-) TimerEvent: {}
+[24.353544] (head_tracking) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[24.396098] (video_source_loader) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[24.453405] (-) TimerEvent: {}
+[24.495907] (head_tracking) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[24.502419] (head_tracking) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[24.506673] (voice_processing) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[24.518519] (voice_processing) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[24.553531] (-) TimerEvent: {}
+[24.572215] (button_simulator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[24.582090] (button_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[24.604530] (controller_display) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[24.613984] (controller_display) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[24.653679] (-) TimerEvent: {}
+[24.673360] (video_source_loader) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[24.674257] (ar_display) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[24.675076] (ar_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[24.696478] (video_source_loader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[24.744861] (head_tracking) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[24.746525] (head_tracking) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[24.753992] (-) TimerEvent: {}
+[24.806449] (voice_processing) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[24.808016] (voice_processing) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[24.854110] (-) TimerEvent: {}
+[24.904962] (button_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[24.905280] (button_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[24.919565] (controller_display) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[24.919945] (controller_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[24.946589] (ar_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[24.954338] (-) TimerEvent: {}
+[24.967468] (ar_display) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[24.968212] (ar_display) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[24.972453] (ar_display) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[25.001543] (video_source_loader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[25.007447] (video_source_loader) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[25.041736] (head_tracking) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[25.054531] (-) TimerEvent: {}
+[25.066672] (head_tracking) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[25.068362] (head_tracking) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[25.072804] (head_tracking) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[25.093600] (voice_processing) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[25.121701] (voice_processing) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[25.122351] (voice_processing) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[25.128778] (button_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[25.129155] (voice_processing) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[25.154622] (-) TimerEvent: {}
+[25.171087] (controller_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[25.191116] (ar_display) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[25.191868] (controller_display) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[25.192435] (controller_display) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[25.195650] (ar_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.199168] (controller_display) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[25.210819] (button_simulator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[25.212428] (button_simulator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[25.232735] (button_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[25.240188] (video_source_loader) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[25.257554] (-) TimerEvent: {}
+[25.268968] (video_source_loader) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[25.269760] (video_source_loader) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[25.279870] (video_source_loader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[25.357759] (-) TimerEvent: {}
+[25.386668] (voice_processing) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[25.392730] (voice_processing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.448140] (controller_display) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[25.449989] (controller_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.457964] (-) TimerEvent: {}
+[25.496778] (ar_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.523931] (head_tracking) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[25.533096] (ar_display) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[25.533926] (ar_display) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[25.537528] (ar_display) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[25.539907] (head_tracking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.558204] (button_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[25.558887] (-) TimerEvent: {}
+[25.560241] (button_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.573472] (ar_display) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[25.574265] (ar_display) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.648196] (video_source_loader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[25.648885] (video_source_loader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.659098] (-) TimerEvent: {}
+[25.761549] (-) TimerEvent: {}
+[25.769737] (voice_processing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.849789] (controller_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.861732] (-) TimerEvent: {}
+[25.886935] (voice_processing) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[25.891110] (voice_processing) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[25.909971] (voice_processing) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[25.917833] (button_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.935805] (head_tracking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.939893] (button_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[25.940747] (button_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[25.943668] (button_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[25.956174] (controller_display) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[25.959744] (controller_display) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[25.961855] (-) TimerEvent: {}
+[25.989600] (button_simulator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[25.990611] (button_simulator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.990741] (controller_display) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[25.990858] (video_source_loader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.994608] (voice_processing) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[25.995255] (voice_processing) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[26.007732] (head_tracking) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[26.010508] (head_tracking) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[26.016307] (video_source_loader) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[26.017826] (video_source_loader) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[26.018948] (head_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[26.021554] (video_source_loader) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[26.061959] (-) TimerEvent: {}
+[26.065366] (controller_display) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[26.068466] (controller_display) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[26.069145] (ar_display) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[26.082378] (head_tracking) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[26.083255] (head_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[26.134550] (video_source_loader) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[26.134903] (video_source_loader) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[26.162069] (-) TimerEvent: {}
+[26.262587] (-) TimerEvent: {}
+[26.323239] (ar_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.353680] (ar_display) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[26.362773] (-) TimerEvent: {}
+[26.411015] (voice_processing) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[26.415447] (voice_processing) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[26.462945] (-) TimerEvent: {}
+[26.468927] (head_tracking) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[26.485905] (voice_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.488305] (button_simulator) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[26.493032] (controller_display) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[26.495384] (controller_display) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[26.496097] (voice_processing) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[26.563114] (-) TimerEvent: {}
+[26.570244] (button_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.580429] (button_simulator) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[26.597556] (controller_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.607093] (controller_display) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[26.650956] (head_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.663344] (-) TimerEvent: {}
+[26.665290] (head_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[26.683735] (ar_display) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[26.686642] (video_source_loader) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[26.763717] (-) TimerEvent: {}
+[26.775923] (video_source_loader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.776734] (ar_display) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[26.783222] (video_source_loader) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[26.820492] (button_simulator) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[26.836620] (controller_display) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[26.847086] (voice_processing) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[26.865178] (-) TimerEvent: {}
+[26.885605] (voice_processing) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[26.889618] (controller_display) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[26.933077] (button_simulator) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[26.965356] (-) TimerEvent: {}
+[26.966325] (head_tracking) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[26.991296] (ar_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.058431] (controller_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.064495] (button_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.065403] (-) TimerEvent: {}
+[27.103820] (head_tracking) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[27.147696] (voice_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.166235] (-) TimerEvent: {}
+[27.167544] (video_source_loader) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[27.235457] (button_simulator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[27.239535] (button_simulator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.243781] (button_simulator) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.245978] (controller_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[27.248399] (ar_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[27.249823] (ar_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.251591] (ar_display) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.258558] (controller_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.262569] (controller_display) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.265077] (video_source_loader) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[27.266330] (-) TimerEvent: {}
+[27.274881] (voice_processing) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[27.277788] (voice_processing) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.279264] (voice_processing) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.355887] (head_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.366556] (-) TimerEvent: {}
+[27.426078] (video_source_loader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.466853] (-) TimerEvent: {}
+[27.489922] (button_simulator) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.490627] (button_simulator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.496474] (head_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[27.516051] (head_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.517682] (head_tracking) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.529866] (ar_display) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.530674] (ar_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.554551] (video_source_loader) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[27.557903] (video_source_loader) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.559560] (video_source_loader) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.567068] (-) TimerEvent: {}
+[27.593108] (voice_processing) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.594021] (voice_processing) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.606644] (controller_display) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.607410] (controller_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.667260] (-) TimerEvent: {}
+[27.710473] (button_simulator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[27.710786] (button_simulator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[27.752803] (ar_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[27.753614] (ar_display) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[27.754815] (head_tracking) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.755477] (head_tracking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.767484] (-) TimerEvent: {}
+[27.868598] (-) TimerEvent: {}
+[27.915719] (controller_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[27.916577] (controller_display) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[27.930025] (voice_processing) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[27.930879] (voice_processing) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[27.931407] (head_tracking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[27.931898] (head_tracking) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[27.944609] (video_source_loader) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.945041] (video_source_loader) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.968684] (-) TimerEvent: {}
+[28.024019] (ar_display) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[28.024447] (ar_display) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[28.036450] (button_simulator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[28.036756] (button_simulator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[28.068804] (-) TimerEvent: {}
+[28.112285] (controller_display) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[28.112587] (controller_display) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[28.156620] (voice_processing) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[28.157148] (voice_processing) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[28.166560] (head_tracking) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[28.166875] (head_tracking) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[28.168873] (-) TimerEvent: {}
+[28.195204] (video_source_loader) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[28.195913] (video_source_loader) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[28.269373] (-) TimerEvent: {}
+[28.333457] (voice_processing) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[28.334181] (voice_processing) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[28.369598] (-) TimerEvent: {}
+[28.381713] (button_simulator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[28.388645] (ar_display) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[28.389140] (button_simulator) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[28.393047] (ar_display) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[28.443291] (video_source_loader) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[28.443621] (video_source_loader) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[28.463155] (head_tracking) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[28.468241] (head_tracking) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[28.469819] (-) TimerEvent: {}
+[28.499876] (controller_display) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[28.502577] (controller_display) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[28.569903] (-) TimerEvent: {}
+[28.670349] (-) TimerEvent: {}
+[28.765906] (video_source_loader) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[28.767713] (video_source_loader) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[28.770984] (-) TimerEvent: {}
+[28.871888] (-) TimerEvent: {}
+[28.972828] (-) TimerEvent: {}
+[28.983112] (voice_processing) StdoutLine: {'line': b'-- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)\n'}
+[28.997406] (button_simulator) StdoutLine: {'line': b'-- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)\n'}
+[29.073012] (-) TimerEvent: {}
+[29.095910] (button_simulator) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[29.100015] (button_simulator) StdoutLine: {'line': b"-- Checking for module 'ncursesw'\n"}
+[29.117856] (video_source_loader) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[29.136756] (button_simulator) StdoutLine: {'line': b'--   Found ncursesw, version 6.2.20200212\n'}
+[29.173179] (-) TimerEvent: {}
+[29.193495] (ar_display) StdoutLine: {'line': b'-- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)\n'}
+[29.270671] (controller_display) StdoutLine: {'line': b'-- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)\n'}
+[29.273285] (-) TimerEvent: {}
+[29.283612] (ar_display) StderrLine: {'line': b'CMake Error at CMakeLists.txt:14 (find_package):\n'}
+[29.283956] (ar_display) StderrLine: {'line': b'  By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[29.284093] (ar_display) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "OpenCV", but\n'}
+[29.284210] (ar_display) StderrLine: {'line': b'  CMake did not find one.\n'}
+[29.284310] (ar_display) StderrLine: {'line': b'\n'}
+[29.284403] (ar_display) StderrLine: {'line': b'  Could not find a package configuration file provided by "OpenCV" with any\n'}
+[29.284494] (ar_display) StderrLine: {'line': b'  of the following names:\n'}
+[29.284583] (ar_display) StderrLine: {'line': b'\n'}
+[29.284671] (ar_display) StderrLine: {'line': b'    OpenCVConfig.cmake\n'}
+[29.284759] (ar_display) StderrLine: {'line': b'    opencv-config.cmake\n'}
+[29.284849] (ar_display) StderrLine: {'line': b'\n'}
+[29.284937] (ar_display) StderrLine: {'line': b'  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set\n'}
+[29.285027] (ar_display) StderrLine: {'line': b'  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"\n'}
+[29.285117] (ar_display) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[29.285205] (ar_display) StderrLine: {'line': b'  installed.\n'}
+[29.285293] (ar_display) StderrLine: {'line': b'\n'}
+[29.285380] (ar_display) StderrLine: {'line': b'\n'}
+[29.287441] (ar_display) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[29.287834] (ar_display) StdoutLine: {'line': b'See also "/home/zkxt/Documents/TK30/bianjiexiongkong/build/ar_display/CMakeFiles/CMakeOutput.log".\n'}
+[29.287939] (ar_display) StdoutLine: {'line': b'See also "/home/zkxt/Documents/TK30/bianjiexiongkong/build/ar_display/CMakeFiles/CMakeError.log".\n'}
+[29.319361] (voice_processing) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[29.324574] (ar_display) CommandEnded: {'returncode': 1}
+[29.369466] (voice_processing) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[29.371412] (voice_processing) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[29.372066] (voice_processing) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zkxt/Documents/TK30/bianjiexiongkong/src/voice_processing/include>\n'}
+[29.372593] (voice_processing) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[29.373637] (-) TimerEvent: {}
+[29.374396] (voice_processing) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[29.382002] (voice_processing) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[29.382179] (voice_processing) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[29.382283] (voice_processing) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[29.382378] (voice_processing) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[29.382472] (voice_processing) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[29.382564] (voice_processing) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[29.382654] (voice_processing) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[29.388681] (voice_processing) StdoutLine: {'line': b'-- Configuring done\n'}
+[29.390995] (ar_display) JobEnded: {'identifier': 'ar_display', 'rc': 1}
+[29.440821] (video_source_loader) StdoutLine: {'line': b'-- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)\n'}
+[29.453054] (head_tracking) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[29.473827] (-) TimerEvent: {}
+[29.489042] (controller_display) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[29.490979] (controller_display) StdoutLine: {'line': b"-- Checking for module 'ncursesw'\n"}
+[29.561816] (video_source_loader) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[29.574829] (-) TimerEvent: {}
+[29.580347] (controller_display) StdoutLine: {'line': b'--   Found ncursesw, version 6.2.20200212\n'}
+[29.594439] (button_simulator) StdoutLine: {'line': b'-- Configuring done\n'}
+[29.679435] (voice_processing) StdoutLine: {'line': b'-- Generating done\n'}
+[29.680273] (-) TimerEvent: {}
+[29.718927] (video_source_loader) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[29.720942] (video_source_loader) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[29.721991] (video_source_loader) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zkxt/Documents/TK30/bianjiexiongkong/src/video_source_loader/include\n'}
+[29.722535] (video_source_loader) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[29.723321] (video_source_loader) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[29.723775] (video_source_loader) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[29.724302] (video_source_loader) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[29.725284] (video_source_loader) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[29.726236] (video_source_loader) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[29.727744] (video_source_loader) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[29.728941] (video_source_loader) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[29.729384] (video_source_loader) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[29.734951] (video_source_loader) StdoutLine: {'line': b'-- Configuring done\n'}
+[29.745901] (button_simulator) StdoutLine: {'line': b'-- Generating done\n'}
+[29.780496] (-) TimerEvent: {}
+[29.788649] (voice_processing) StdoutLine: {'line': b'-- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing\n'}
+[29.805554] (voice_processing) JobEnded: {'identifier': 'voice_processing', 'rc': 'SIGINT'}
+[29.848052] (button_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/button_simulator\n'}
+[29.863403] (button_simulator) JobEnded: {'identifier': 'button_simulator', 'rc': 'SIGINT'}
+[29.880687] (-) TimerEvent: {}
+[29.912701] (video_source_loader) StdoutLine: {'line': b'-- Generating done\n'}
+[29.935401] (head_tracking) StdoutLine: {'line': b'-- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)\n'}
+[29.980896] (-) TimerEvent: {}
+[30.002954] (controller_display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[30.030700] (video_source_loader) StdoutLine: {'line': b'-- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader\n'}
+[30.031807] (controller_display) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[30.032959] (controller_display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[30.033413] (controller_display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[30.033565] (controller_display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[30.039291] (controller_display) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[30.039678] (controller_display) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[30.039797] (controller_display) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[30.039899] (controller_display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.039995] (controller_display) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[30.040818] (controller_display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[30.041035] (controller_display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[30.041401] (controller_display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[30.047868] (controller_display) StdoutLine: {'line': b'-- Configuring done\n'}
+[30.049486] (video_source_loader) JobEnded: {'identifier': 'video_source_loader', 'rc': 'SIGINT'}
+[30.080973] (-) TimerEvent: {}
+[30.180948] (head_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[30.181756] (-) TimerEvent: {}
+[30.200747] (head_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[30.209592] (head_tracking) StdoutLine: {'line': b'-- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/head_tracking\n'}
+[30.217046] (controller_display) StdoutLine: {'line': b'-- Generating done\n'}
+[30.227705] (head_tracking) JobEnded: {'identifier': 'head_tracking', 'rc': 'SIGINT'}
+[30.281969] (-) TimerEvent: {}
+[30.330245] (controller_display) StdoutLine: {'line': b'-- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display\n'}
+[30.348463] (controller_display) JobEnded: {'identifier': 'controller_display', 'rc': 'SIGINT'}
+[30.359943] (-) EventReactorShutdown: {}

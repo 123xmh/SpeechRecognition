@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from chest_interfaces/msg/VoiceText.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module chest_interfaces {
+  module msg {
+    struct VoiceText {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " 语音识别结果" "\n"
+        " 原始识别文本(中文、英文、数字等，不超过100个字符)")
+      string raw_text;
+
+      @verbatim (language="comment", text=
+        " 是否为最终结果 (true=最终, false=中间结果)")
+      boolean is_final;
+
+      @verbatim (language="comment", text=
+        " 整个文本的置信度 [0, 1]")
+      float confidence;
+    };
+  };
+};

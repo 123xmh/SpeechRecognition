@@ -1,0 +1,18 @@
+/**:
+  ros__parameters:
+    # UDP通信配置
+    communication.udp.listen_port: 8888
+    communication.udp.vehicle.ip: "127.0.0.1"
+    communication.udp.vehicle.port: 8887
+    
+    # 命令超时和重试配置
+    communication.command.timeout_ms: 200
+    communication.command.max_retries: 3
+    
+    # 数据发送频率配置
+    communication.frequency.vehicle_status_hz: 20
+    communication.frequency.head_tracking_hz: 100
+    
+    # 日志配置
+    communication.logging.level: "INFO"
+    communication.logging.enable_udp_log: true

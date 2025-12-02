@@ -1,0 +1,10 @@
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/install/strip.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/install/local.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/install.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/list_install_components.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/rebuild_cache.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/edit_cache.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/test.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/voice_processing_node.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/voice_processing_uninstall.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing/CMakeFiles/uninstall.dir

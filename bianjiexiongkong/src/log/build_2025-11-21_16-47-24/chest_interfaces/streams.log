@@ -1,0 +1,35 @@
+[0.028s] Invoking command in '/home/zkxt/Documents/TK30/20251104便携胸控程序/src/build/chest_interfaces': CONDA_PROMPT_MODIFIER=(rknn) /usr/bin/cmake /home/zkxt/Documents/TK30/20251104便携胸控程序/src/chest_interfaces -DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/20251104便携胸控程序/src/install/chest_interfaces
+[0.625s] -- The C compiler identification is GNU 9.4.0
+[1.030s] -- The CXX compiler identification is GNU 9.4.0
+[1.071s] -- Check for working C compiler: /usr/bin/cc
+[1.328s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.345s] -- Detecting C compiler ABI info
+[1.594s] -- Detecting C compiler ABI info - done
+[1.663s] -- Detecting C compile features
+[1.664s] -- Detecting C compile features - done
+[1.672s] -- Check for working CXX compiler: /usr/bin/c++
+[1.915s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.922s] -- Detecting CXX compiler ABI info
+[2.143s] -- Detecting CXX compiler ABI info - done
+[2.159s] -- Detecting CXX compile features
+[2.160s] -- Detecting CXX compile features - done
+[2.190s] CMake Error at CMakeLists.txt:9 (find_package):
+[2.191s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.191s]   has asked CMake to find a package configuration file provided by
+[2.192s]   "ament_cmake", but CMake did not find one.
+[2.192s] 
+[2.193s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.193s]   any of the following names:
+[2.193s] 
+[2.194s]     ament_cmakeConfig.cmake
+[2.194s]     ament_cmake-config.cmake
+[2.195s] 
+[2.195s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.196s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.196s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.197s]   has been installed.
+[2.197s] 
+[2.198s] 
+[2.198s] -- Configuring incomplete, errors occurred!
+[2.199s] See also "/home/zkxt/Documents/TK30/20251104便携胸控程序/src/build/chest_interfaces/CMakeFiles/CMakeOutput.log".
+[2.199s] Invoked command in '/home/zkxt/Documents/TK30/20251104便携胸控程序/src/build/chest_interfaces' returned '1': CONDA_PROMPT_MODIFIER=(rknn) /usr/bin/cmake /home/zkxt/Documents/TK30/20251104便携胸控程序/src/chest_interfaces -DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/20251104便携胸控程序/src/install/chest_interfaces

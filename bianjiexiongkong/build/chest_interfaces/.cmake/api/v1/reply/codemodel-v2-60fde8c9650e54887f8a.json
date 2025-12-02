@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "chest_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces/chest_interfaces__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "chest_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces-cd5886e6435b7bcecd52.json",
+					"name" : "chest_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__cpp-fa9917f253cf73a8f278.json",
+					"name" : "chest_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "chest_interfaces__py::@bf851ca3417c35692d6b",
+					"jsonFile" : "target-chest_interfaces__py-bfd875c437595263d0b9.json",
+					"name" : "chest_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__python-ba04604cec968b961db8.json",
+					"name" : "chest_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_generator_c-373f3984e82981c452e0.json",
+					"name" : "chest_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_c-ecc2487639a8afdfc5a8.json",
+					"name" : "chest_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_c__pyext-6b70d83197adc6e6e56b.json",
+					"name" : "chest_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_cpp-df902dedbe6590073f3a.json",
+					"name" : "chest_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_fastrtps_c-8bbec84fe97ec2e5b611.json",
+					"name" : "chest_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_fastrtps_c__pyext-c17237fa3b5d684c5c11.json",
+					"name" : "chest_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_fastrtps_cpp-f70e1459df9ebf86e76f.json",
+					"name" : "chest_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_introspection_c-6885d209d86f701745bf.json",
+					"name" : "chest_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_introspection_c__pyext-cfa5ebdddb48df860ca2.json",
+					"name" : "chest_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces__rosidl_typesupport_introspection_cpp-3da93e3e7a60c9efd3be.json",
+					"name" : "chest_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chest_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chest_interfaces_uninstall-c9f9e414abd14747c584.json",
+					"name" : "chest_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b38f072b109dc36beb81.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces",
+		"source" : "/home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

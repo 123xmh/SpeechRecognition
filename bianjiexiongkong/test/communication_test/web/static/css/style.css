@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connection-status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#connection-status {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#connection-status.connected {
+    background-color: #27ae60;
+}
+
+#connection-status.disconnected {
+    background-color: #e74c3c;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+}
+
+.panel h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+.control-section, .manual-section, .monitor-section, .protocol-section {
+    margin-bottom: 25px;
+}
+
+.control-section h3, .manual-section h3, .monitor-section h3, .protocol-section h3 {
+    color: #34495e;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.control-group label {
+    min-width: 150px;
+    font-weight: bold;
+}
+
+/* 开关样式 */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* 滑块样式 */
+input[type="range"] {
+    width: 200px;
+    margin: 0 10px;
+}
+
+/* 输入组样式 */
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.input-group button:hover {
+    background-color: #2980b9;
+}
+
+/* 命令组样式 */
+.command-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.command-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.param-group {
+    display: flex;
+    gap: 10px;
+}
+
+.param-group input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* 按钮样式 */
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    background-color: #21618c;
+}
+
+/* 数据容器样式 */
+.data-container {
+    min-height: 120px;
+    max-height: 300px;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 0.9em;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.log-container {
+    max-height: 200px;
+}
+
+.data-item {
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #eee;
+}
+
+.data-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.timestamp {
+    color: #7f8c8d;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.status-on {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.status-off {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.value-high {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.value-medium {
+    color: #f39c12;
+}
+
+.value-low {
+    color: #e74c3c;
+}
+
+.warning {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* 协议列表样式 */
+.protocol-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.protocol-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border-left: 4px solid #3498db;
+}
+
+.protocol-name {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.protocol-id {
+    font-family: monospace;
+    background-color: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #495057;
+}
+
+.protocol-desc {
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+    
+    .control-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .input-group {
+        flex-direction: column;
+    }
+    
+    .param-group {
+        flex-direction: column;
+    }
+    
+    .protocol-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.data-item {
+    animation: fadeIn 0.3s ease-in;
+}
+
+/* 滚动条样式 */
+.data-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.data-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.data-container::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+.data-container::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}

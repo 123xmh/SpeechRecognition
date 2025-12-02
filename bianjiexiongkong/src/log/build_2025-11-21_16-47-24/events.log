@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.002667] (-) JobUnselected: {'identifier': 'ar_display'}
+[0.002856] (-) JobUnselected: {'identifier': 'button_simulator'}
+[0.003002] (-) JobUnselected: {'identifier': 'communication'}
+[0.003516] (-) JobUnselected: {'identifier': 'controller_display'}
+[0.003775] (-) JobUnselected: {'identifier': 'head_tracking'}
+[0.003941] (-) JobUnselected: {'identifier': 'video_source_loader'}
+[0.004125] (-) JobUnselected: {'identifier': 'voice_processing'}
+[0.004544] (-) JobUnselected: {'identifier': 'web_monitor'}
+[0.004887] (chest_interfaces) JobQueued: {'identifier': 'chest_interfaces', 'dependencies': OrderedDict()}
+[0.005060] (chest_interfaces) JobStarted: {'identifier': 'chest_interfaces'}
+[0.023146] (chest_interfaces) JobProgress: {'identifier': 'chest_interfaces', 'progress': 'cmake'}
+[0.024729] (chest_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zkxt/Documents/TK30/20251104便携胸控程序/src/chest_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/20251104便携胸控程序/src/install/chest_interfaces'], 'cwd': '/home/zkxt/Documents/TK30/20251104便携胸控程序/src/build/chest_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('CONDA_PROMPT_MODIFIER', '(rknn)'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '967'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/zkxt/Documents/TK30'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '777'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/zkxt/Downloads/yes'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3914'), ('IM_CONFIG_PHASE', '1'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:42203'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('WINDOWPATH', '2'), ('PATH', '/home/zkxt/Downloads/yes/envs/rknn/bin:/home/zkxt/Downloads/yes/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/1174,unix/ubuntu2004:/tmp/.ICE-unix/1174'), ('INVOCATION_ID', '50d3bfdd454f442c9cd5415cf5d62d11'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CONDA_PREFIX_1', '/home/zkxt/Downloads/yes'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('CONDA_PYTHON_EXE', '/home/zkxt/Downloads/yes/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('CONDA_DEFAULT_ENV', 'rknn'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/zkxt/Downloads/yes/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/20251104便携胸控程序/src/build/chest_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zkxt/Downloads/yes/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('CONDA_PREFIX', '/home/zkxt/Downloads/yes/envs/rknn'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.099419] (-) TimerEvent: {}
+[0.200294] (-) TimerEvent: {}
+[0.301183] (-) TimerEvent: {}
+[0.402043] (-) TimerEvent: {}
+[0.502897] (-) TimerEvent: {}
+[0.603703] (-) TimerEvent: {}
+[0.630289] (chest_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.703911] (-) TimerEvent: {}
+[0.804765] (-) TimerEvent: {}
+[0.905369] (-) TimerEvent: {}
+[1.006234] (-) TimerEvent: {}
+[1.035674] (chest_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.076490] (chest_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.106398] (-) TimerEvent: {}
+[1.206881] (-) TimerEvent: {}
+[1.307636] (-) TimerEvent: {}
+[1.333271] (chest_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.350154] (chest_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.407774] (-) TimerEvent: {}
+[1.508658] (-) TimerEvent: {}
+[1.598908] (chest_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.608792] (-) TimerEvent: {}
+[1.667693] (chest_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.669165] (chest_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.677239] (chest_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.708995] (-) TimerEvent: {}
+[1.809829] (-) TimerEvent: {}
+[1.910659] (-) TimerEvent: {}
+[1.919712] (chest_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.927005] (chest_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.014365] (-) TimerEvent: {}
+[2.114789] (-) TimerEvent: {}
+[2.148260] (chest_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.164154] (chest_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.165002] (chest_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.195716] (chest_interfaces) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[2.196054] (chest_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.196183] (chest_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.196848] (chest_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.197282] (chest_interfaces) StderrLine: {'line': b'\n'}
+[2.197730] (chest_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.198177] (chest_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[2.198605] (chest_interfaces) StderrLine: {'line': b'\n'}
+[2.199059] (chest_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.199510] (chest_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.199941] (chest_interfaces) StderrLine: {'line': b'\n'}
+[2.200369] (chest_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.200795] (chest_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.201548] (chest_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.202206] (chest_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[2.202722] (chest_interfaces) StderrLine: {'line': b'\n'}
+[2.202930] (chest_interfaces) StderrLine: {'line': b'\n'}
+[2.203751] (chest_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.203932] (chest_interfaces) StdoutLine: {'line': b'See also "/home/zkxt/Documents/TK30/20251104\xe4\xbe\xbf\xe6\x90\xba\xe8\x83\xb8\xe6\x8e\xa7\xe7\xa8\x8b\xe5\xba\x8f/src/build/chest_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.204447] (chest_interfaces) CommandEnded: {'returncode': 1}
+[2.214973] (-) TimerEvent: {}
+[2.289662] (chest_interfaces) JobEnded: {'identifier': 'chest_interfaces', 'rc': 1}
+[2.300642] (-) EventReactorShutdown: {}

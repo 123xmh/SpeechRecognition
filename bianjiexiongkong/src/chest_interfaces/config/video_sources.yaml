@@ -1,0 +1,37 @@
+# chest_interfaces/config/video_sources.yaml
+video_sources:
+  - id: 1
+    ip_address: "192.168.1.101:554"
+    source_name: "前视摄像头"
+    fps: 30
+    width: 1920
+    height: 1080
+    encoding: "h264"
+    is_available: true
+
+  - id: 2
+    ip_address: "192.168.1.102:8554"
+    source_name: "后视摄像头"
+    fps: 25
+    width: 1280
+    height: 720
+    encoding: "h265"
+    is_available: true
+
+  - id: 3
+    ip_address: "192.168.1.103:554"
+    source_name: "左视摄像头"
+    fps: 30
+    width: 1920
+    height: 1080
+    encoding: "h264"
+    is_available: true
+
+  - id: 4
+    ip_address: "192.168.1.104:8554"
+    source_name: "右视摄像头"
+    fps: 30
+    width: 1280
+    height: 720
+    encoding: "h264"
+    is_available: true

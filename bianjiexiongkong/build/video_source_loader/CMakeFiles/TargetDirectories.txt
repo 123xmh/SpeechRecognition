@@ -1,0 +1,10 @@
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/install/strip.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/install.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/list_install_components.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/rebuild_cache.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/edit_cache.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/test.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/install/local.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/video_source_loader_node.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/video_source_loader_uninstall.dir
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/video_source_loader/CMakeFiles/uninstall.dir

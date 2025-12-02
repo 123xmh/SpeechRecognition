@@ -1,0 +1,4 @@
+source;share/chest_interfaces/local_setup.bash
+source;share/chest_interfaces/local_setup.dsv
+source;share/chest_interfaces/local_setup.sh
+source;share/chest_interfaces/local_setup.zsh

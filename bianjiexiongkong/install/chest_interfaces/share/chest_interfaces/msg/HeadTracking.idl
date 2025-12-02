@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from chest_interfaces/msg/HeadTracking.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module chest_interfaces {
+  module msg {
+    struct HeadTracking {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " 欧拉角采用弧度制 (符合ROS惯例)" "\n"
+        " [-2π, 2π]  航向角支持连续转头")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        " [-π/2, π/2] 俯仰角")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        " 状态指示器 0表示未开启跟踪，1表示开启跟踪")
+      boolean is_tracking;
+
+      @verbatim (language="comment", text=
+        " [0, 1] 置信度 (0表示无效)")
+      float confidence;
+    };
+  };
+};

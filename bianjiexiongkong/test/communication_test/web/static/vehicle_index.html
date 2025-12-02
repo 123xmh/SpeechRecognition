@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>车辆节点模拟器</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        
+        .status-online {
+            background-color: #28a745;
+        }
+        
+        .status-offline {
+            background-color: #dc3545;
+        }
+        
+        .control-panel {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .data-panel {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        
+        .log {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+        .btn-warning {
+            background: #ffc107;
+            color: black;
+        }
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+        
+        input[type="number"] {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .data-item {
+            padding: 5px;
+            margin: 2px 0;
+            background: white;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚗 车辆节点模拟器</h1>
+            <p>用于测试头盔节点（communication模块）的通信功能</p>
+            <div id="connection-status">
+                <span class="status-indicator status-offline"></span>
+                <span>未连接</span>
+            </div>
+        </div>
+
+        <!-- 车辆状态控制面板 -->
+        <div class="control-panel">
+            <h3>🚗 车辆状态控制</h3>
+            <div>
+                <button id="toggle-vehicle-status" class="btn-primary">启动</button>
+                <span id="vehicle-status-text">车辆状态发送: 关闭</span>
+            </div>
+            <div>
+                <label>发送频率 (Hz): </label>
+                <input type="number" id="vehicle-status-interval" value="20" min="1" max="100" step="1">
+                <button id="set-interval" class="btn-warning">设置</button>
+            </div>
+        </div>
+
+        <!-- 数据监控面板 -->
+        <div class="control-panel">
+            <h3>📊 数据监控</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <h4>实时数据</h4>
+                    <div id="realtime-data" class="data-panel">
+                        <div class="data-item">暂无数据</div>
+                    </div>
+                </div>
+                <div>
+                    <h4>头部跟踪数据</h4>
+                    <div id="head-tracking-data" class="data-panel">
+                        <div class="data-item">暂无数据</div>
+                    </div>
+                </div>
+                <div>
+                    <h4>语音文本数据</h4>
+                    <div id="voice-text-data" class="data-panel">
+                        <div class="data-item">暂无数据</div>
+                    </div>
+                </div>
+                <div>
+                    <h4>语音命令数据</h4>
+                    <div id="voice-command-data" class="data-panel">
+                        <div class="data-item">暂无数据</div>
+                    </div>
+                </div>
+                <div>
+                    <h4>确认包数据</h4>
+                    <div id="ack-data" class="data-panel">
+                        <div class="data-item">暂无数据</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 日志面板 -->
+        <div class="control-panel">
+            <h3>📝 系统日志</h3>
+            <div id="log-content" class="log">
+                <div>等待连接...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let ws = null;
+        let isConnected = false;
+        let reconnectAttempts = 0;
+        const maxReconnectAttempts = 5;
+        const reconnectInterval = 3000;
+        let vehicleStatusEnabled = false;
+        let stats = {
+            realtimeReceived: 0,
+            headTrackingReceived: 0,
+            voiceTextReceived: 0,
+            voiceCommandReceived: 0,
+            ackReceived: 0,
+            ackSent: 0
+        };
+        
+        function log(message, type = 'info') {
+            const logContent = document.getElementById('log-content');
+            if (!logContent) {
+                console.log(`[${type.toUpperCase()}] ${message}`);
+                return;
+            }
+            
+            const timestamp = new Date().toLocaleTimeString();
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            
+            const levelClass = `log-${type}`;
+            entry.innerHTML = `
+                <span class="log-timestamp">[${timestamp}]</span>
+                <span class="${levelClass}">${message}</span>
+            `;
+            
+            logContent.insertBefore(entry, logContent.firstChild);
+            
+            // 保持最多100条日志
+            while (logContent.children.length > 100) {
+                logContent.removeChild(logContent.lastChild);
+            }
+            
+            // 同时输出到控制台
+            console.log(`[${timestamp}] [${type.toUpperCase()}] ${message}`);
+        }
+        
+        function updateConnectionStatus(connected) {
+            const statusElement = document.getElementById('connection-status');
+            if (!statusElement) {
+                log('找不到connection-status元素', 'error');
+                return;
+            }
+            
+            const indicator = statusElement.querySelector('.status-indicator');
+            const text = statusElement.querySelector('span:last-child');
+            
+            if (!indicator || !text) {
+                log('找不到状态指示器或文本元素', 'error');
+                return;
+            }
+            
+            if (connected) {
+                indicator.className = 'status-indicator status-online';
+                text.textContent = '已连接';
+                isConnected = true;
+                log('连接状态更新为: 已连接', 'info');
+            } else {
+                indicator.className = 'status-indicator status-offline';
+                text.textContent = '未连接';
+                isConnected = false;
+                log('连接状态更新为: 未连接', 'warning');
+            }
+        }
+        
+        function connectWebSocket() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                log('WebSocket已经连接', 'warning');
+                return;
+            }
+            
+            const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsUrl = `${protocol}//${window.location.host}/ws`;
+            
+            log(`尝试连接WebSocket: ${wsUrl}`, 'info');
+            
+            try {
+                ws = new WebSocket(wsUrl);
+                
+                ws.onopen = function(event) {
+                    log('WebSocket onopen事件触发', 'info');
+                    isConnected = true;
+                    reconnectAttempts = 0;
+                    updateConnectionStatus(true);
+                    log('WebSocket连接已建立', 'info');
+                    
+                    // 请求初始状态
+                    sendMessage({
+                        type: 'get_status'
+                    });
+                };
+                
+                ws.onmessage = function(event) {
+                    log(`收到消息: ${event.data}`, 'info');
+                    try {
+                        const message = JSON.parse(event.data);
+                        handleMessage(message);
+                    } catch (e) {
+                        log(`解析消息失败: ${e.message}`, 'error');
+                    }
+                };
+                
+                ws.onclose = function(event) {
+                    log(`WebSocket连接已断开: 代码=${event.code}, 原因=${event.reason}`, 'warning');
+                    updateConnectionStatus(false);
+                    
+                    // 自动重连
+                    if (reconnectAttempts < maxReconnectAttempts) {
+                        reconnectAttempts++;
+                        log(`尝试重连 (${reconnectAttempts}/${maxReconnectAttempts})...`, 'info');
+                        setTimeout(connectWebSocket, reconnectInterval);
+                    } else {
+                        log('重连失败，请手动重连', 'error');
+                    }
+                };
+                
+                ws.onerror = function(error) {
+                    log(`WebSocket错误: ${error}`, 'error');
+                    console.error('WebSocket错误详情:', error);
+                };
+                
+            } catch (error) {
+                log(`连接WebSocket失败: ${error.message}`, 'error');
+            }
+        }
+        
+        function handleMessage(message) {
+            switch (message.type) {
+                case 'status':
+                    handleStatusMessage(message.data);
+                    break;
+                case 'data_update':
+                    handleDataUpdate(message.data_type, message.data);
+                    break;
+                default:
+                    log(`未知消息类型: ${message.type}`, 'warning');
+            }
+        }
+        
+        function handleStatusMessage(data) {
+            // 更新车辆状态按钮
+            const button = document.getElementById('toggle-vehicle-status');
+            const statusText = document.getElementById('vehicle-status-text');
+            
+            if (data.vehicle_status_enabled) {
+                button.textContent = '停止';
+                button.className = 'btn-danger';
+                statusText.textContent = '车辆状态发送: 开启';
+                vehicleStatusEnabled = true;
+            } else {
+                button.textContent = '启动';
+                button.className = 'btn-primary';
+                statusText.textContent = '车辆状态发送: 关闭';
+                vehicleStatusEnabled = false;
+            }
+            
+            log(`状态更新: 车辆状态=${data.vehicle_status_enabled ? '开启' : '关闭'}`, 'info');
+        }
+        
+        function handleDataUpdate(dataType, data) {
+            switch (dataType) {
+                case 'realtime':
+                    stats.realtimeReceived++;
+                    addRealtimeData(`实时数据: ${JSON.stringify(data)}`);
+                    break;
+                case 'head_tracking':
+                    stats.headTrackingReceived++;
+                    addHeadTrackingData(`头部跟踪: ${JSON.stringify(data)}`);
+                    break;
+                case 'voice_text':
+                    stats.voiceTextReceived++;
+                    addVoiceTextData(`语音文本: ${JSON.stringify(data)}`);
+                    break;
+                case 'voice_command':
+                    stats.voiceCommandReceived++;
+                    addVoiceCommandData(`语音命令: ${JSON.stringify(data)}`);
+                    break;
+                case 'ack':
+                    stats.ackReceived++;
+                    addAckData(`确认包: ${JSON.stringify(data)}`);
+                    break;
+            }
+        }
+        
+        function addRealtimeData(text) {
+            addDataToList('realtime-data', text);
+        }
+        
+        function addHeadTrackingData(text) {
+            addDataToList('head-tracking-data', text);
+        }
+        
+        function addVoiceTextData(text) {
+            addDataToList('voice-text-data', text);
+        }
+        
+        function addVoiceCommandData(text) {
+            addDataToList('voice-command-data', text);
+        }
+        
+        function addAckData(text) {
+            addDataToList('ack-data', text);
+        }
+        
+        function addDataToList(listId, text) {
+            const list = document.getElementById(listId);
+            const timestamp = new Date().toLocaleTimeString();
+            const item = document.createElement('div');
+            item.className = 'data-item';
+            item.innerHTML = `[${timestamp}] ${text}`;
+            
+            list.insertBefore(item, list.firstChild);
+            
+            // 保持最多50条数据
+            while (list.children.length > 50) {
+                list.removeChild(list.lastChild);
+            }
+        }
+        
+        function sendMessage(message) {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                const messageStr = JSON.stringify(message);
+                ws.send(messageStr);
+                log(`发送消息: ${messageStr}`, 'info');
+            } else {
+                log('WebSocket未连接，无法发送消息', 'error');
+            }
+        }
+        
+        function toggleVehicleStatus() {
+            if (!isConnected) {
+                log('WebSocket未连接，无法发送控制命令', 'error');
+                return;
+            }
+            
+            const newStatus = !vehicleStatusEnabled;
+            sendMessage({
+                type: 'toggle_vehicle_status',
+                enabled: newStatus
+            });
+            
+            log(`${newStatus ? '启动' : '停止'}车辆状态发送`, 'info');
+        }
+        
+        function setVehicleStatusInterval() {
+            if (!isConnected) {
+                log('WebSocket未连接，无法发送控制命令', 'error');
+                return;
+            }
+            
+            const interval = parseFloat(document.getElementById('vehicle-status-interval').value);
+            if (isNaN(interval) || interval <= 0) {
+                log('请输入有效的发送频率', 'error');
+                return;
+            }
+            
+            sendMessage({
+                type: 'set_vehicle_status_interval',
+                interval: interval
+            });
+            
+            log(`设置车辆状态发送频率为 ${interval}Hz`, 'info');
+        }
+        
+        // 设置事件监听器
+        function setupEventListeners() {
+            const toggleBtn = document.getElementById('toggle-vehicle-status');
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', toggleVehicleStatus);
+            } else {
+                console.warn('找不到toggle-vehicle-status元素');
+            }
+            
+            const intervalBtn = document.getElementById('set-interval');
+            if (intervalBtn) {
+                intervalBtn.addEventListener('click', setVehicleStatusInterval);
+            } else {
+                console.warn('找不到set-interval元素');
+            }
+        }
+        
+        // 定期请求状态更新
+        function startStatusUpdate() {
+            setInterval(() => {
+                if (isConnected) {
+                    sendMessage({
+                        type: 'get_status'
+                    });
+                    
+                    sendMessage({
+                        type: 'get_received_data'
+                    });
+                }
+            }, 5000);
+        }
+        
+        // 页面加载时自动连接
+        window.addEventListener('load', function() {
+            log('页面加载完成，开始连接WebSocket...', 'info');
+            setupEventListeners();
+            setTimeout(connectWebSocket, 1000); // 延迟1秒连接
+            startStatusUpdate();
+        });
+        
+        // 页面卸载时断开连接
+        window.addEventListener('beforeunload', function() {
+            if (ws) {
+                ws.close();
+            }
+        });
+    </script>
+</body>
+</html>

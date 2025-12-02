@@ -1,0 +1,86 @@
+[0.508s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/communication': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy LD_LIBRARY_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/zkxt/Documents/TK30/bianjiexiongkong/src/communication -DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication
+[0.695s] -- The C compiler identification is GNU 9.4.0
+[0.914s] -- The CXX compiler identification is GNU 9.4.0
+[0.923s] -- Check for working C compiler: /usr/bin/cc
+[1.192s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.201s] -- Detecting C compiler ABI info
+[1.447s] -- Detecting C compiler ABI info - done
+[1.471s] -- Detecting C compile features
+[1.472s] -- Detecting C compile features - done
+[1.475s] -- Check for working CXX compiler: /usr/bin/c++
+[1.699s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.701s] -- Detecting CXX compiler ABI info
+[1.979s] -- Detecting CXX compiler ABI info - done
+[2.000s] -- Detecting CXX compile features
+[2.001s] -- Detecting CXX compile features - done
+[2.005s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.067s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.456s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.543s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.699s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.748s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.005s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.008s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.010s] -- Looking for pthread.h
+[3.358s] -- Looking for pthread.h - found
+[3.358s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.710s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.711s] -- Looking for pthread_create in pthreads
+[4.055s] -- Looking for pthread_create in pthreads - not found
+[4.055s] -- Looking for pthread_create in pthread
+[4.475s] -- Looking for pthread_create in pthread - found
+[4.490s] -- Found Threads: TRUE  
+[4.849s] -- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)
+[5.062s] -- Configuring done
+[5.087s] -- Generating done
+[5.097s] -- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/communication
+[5.116s] Invoked command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/communication' returned '0': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy LD_LIBRARY_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/zkxt/Documents/TK30/bianjiexiongkong/src/communication -DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication
+[5.118s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/communication': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy LD_LIBRARY_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/zkxt/Documents/TK30/bianjiexiongkong/build/communication -- -j8 -l8
+[5.307s] [35m[1mScanning dependencies of target protocol_parser[0m
+[5.510s] [ 25%] [32mBuilding CXX object CMakeFiles/protocol_parser.dir/src/protocol_parser.cpp.o[0m
+[8.276s] [01m[K/home/zkxt/Documents/TK30/bianjiexiongkong/src/communication/src/protocol_parser.cpp:[m[K In member function ‘[01m[Kbool communication::ProtocolParser::parseVehicleState(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[8.276s] [01m[K/home/zkxt/Documents/TK30/bianjiexiongkong/src/communication/src/protocol_parser.cpp:63:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kplatform_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.277s]    63 |     uint8_t [01;35m[Kplatform_id[m[K = data[8];
+[8.278s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[8.278s] [01m[K/home/zkxt/Documents/TK30/bianjiexiongkong/src/communication/src/protocol_parser.cpp:[m[K In member function ‘[01m[Kbool communication::ProtocolParser::parseVoiceText(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[8.279s] [01m[K/home/zkxt/Documents/TK30/bianjiexiongkong/src/communication/src/protocol_parser.cpp:188:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[8.279s]   188 |     if ([01;35m[Kdata.size() != 8 + length[m[K) {
+[8.280s]       |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[9.444s] [ 50%] [32m[1mLinking CXX static library libprotocol_parser.a[0m
+[9.531s] [ 50%] Built target protocol_parser
+[9.575s] [35m[1mScanning dependencies of target communication_node[0m
+[9.710s] [ 75%] [32mBuilding CXX object CMakeFiles/communication_node.dir/src/communication_node.cpp.o[0m
+[28.647s] [100%] [32m[1mLinking CXX executable communication_node[0m
+[29.690s] [100%] Built target communication_node
+[29.743s] Invoked command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/communication' returned '0': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy LD_LIBRARY_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/zkxt/Documents/TK30/bianjiexiongkong/build/communication -- -j8 -l8
+[29.797s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/communication': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy LD_LIBRARY_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/zkxt/Documents/TK30/bianjiexiongkong/build/communication
+[29.833s] -- Install configuration: ""
+[29.834s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/lib/communication/communication_node
+[29.856s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/lib/communication/communication_node" to ""
+[29.856s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/lib/communication/libprotocol_parser.a
+[29.857s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/include
+[29.858s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/include/communication
+[29.859s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/include/communication/protocol_parser.hpp
+[29.861s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/launch
+[29.861s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/launch/communication.launch.py
+[29.864s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/config
+[29.865s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/config/communication_config.yaml
+[29.869s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+[29.870s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+[29.871s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/environment/ament_prefix_path.sh
+[29.872s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/environment/ament_prefix_path.dsv
+[29.872s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/environment/path.sh
+[29.873s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/environment/path.dsv
+[29.873s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/local_setup.bash
+[29.881s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/local_setup.sh
+[29.882s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/local_setup.zsh
+[29.882s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/local_setup.dsv
+[29.883s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/package.dsv
+[29.884s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/ament_index/resource_index/packages/communication
+[29.885s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/cmake/communicationConfig.cmake
+[29.905s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/cmake/communicationConfig-version.cmake
+[29.914s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/communication/share/communication/package.xml
+[29.916s] Invoked command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/communication' returned '0': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy LD_LIBRARY_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/zkxt/Documents/TK30/bianjiexiongkong/build/communication

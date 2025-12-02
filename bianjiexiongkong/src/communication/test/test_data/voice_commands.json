@@ -1,0 +1,195 @@
+{
+  "voice_command_categories": {
+    "0x01": {
+      "name": "车辆环境控制系统",
+      "operations": {
+        "0x01": {"name": "设置空调温度", "param1_range": [160, 300], "param2": 0, "param3": 0},
+        "0x02": {"name": "调高温度", "param1": 0, "param2": 0, "param3": 0},
+        "0x03": {"name": "调低温度", "param1": 0, "param2": 0, "param3": 0},
+        "0x04": {"name": "设置风扇速度档位", "param1": 0, "param2": 0, "param3_range": [1, 5]},
+        "0x05": {"name": "空调自动模式", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x06": {"name": "空调开关", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x07": {"name": "抽尘泵运行", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x08": {"name": "风扇强制运行", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x09": {"name": "水泵强制运行", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x0A": {"name": "低温启动", "param1": 0, "param2": 0, "param3_range": [0, 1]}
+      }
+    },
+    "0x02": {
+      "name": "车辆灯光与信号系统",
+      "operations": {
+        "0x01": {"name": "左转向灯", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x02": {"name": "右转向灯", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x03": {"name": "左前大灯近光", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x04": {"name": "右前大灯近光", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x05": {"name": "左前大灯远光", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x06": {"name": "右前大灯远光", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x07": {"name": "示廓灯", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x08": {"name": "危险告警灯", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x09": {"name": "喇叭", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x0A": {"name": "防空", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x0B": {"name": "喷水", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x0C": {"name": "左切屏", "param1": 0, "param2": 0, "param3_range": [0, 1]},
+        "0x0D": {"name": "右切屏", "param1": 0, "param2": 0, "param3_range": [0, 1]}
+      }
+    },
+    "0x03": {
+      "name": "车辆行驶模式",
+      "operations": {
+        "0x01": {"name": "设置车辆模式", "param1": 0, "param2": 0, "param3_range": [1, 5]}
+      }
+    },
+    "0x04": {
+      "name": "车辆信息系统",
+      "operations": {
+        "0x01": {"name": "显示前方视频", "param1": 0, "param2": 0, "param3": 0},
+        "0x02": {"name": "显示后方视频", "param1": 0, "param2": 0, "param3": 0},
+        "0x03": {"name": "显示状态信息", "param1": 0, "param2": 0, "param3": 0},
+        "0x04": {"name": "显示地图", "param1": 0, "param2": 0, "param3": 0},
+        "0x05": {"name": "显示热成像", "param1": 0, "param2": 0, "param3": 0},
+        "0x06": {"name": "切换视频源", "param1": 0, "param2": 0, "param3_range": [1, 10]}
+      }
+    },
+    "0x05": {
+      "name": "通信与导航",
+      "operations": {
+        "0x01": {"name": "建立通信链路", "param1": 0, "param2": 0, "param3": 0},
+        "0x02": {"name": "终止通信链路", "param1": 0, "param2": 0, "param3": 0},
+        "0x03": {"name": "设置航点", "param1_range": [390000000, 400000000], "param2_range": [1160000000, 1170000000], "param3": 0},
+        "0x04": {"name": "清除所有航点", "param1": 0, "param2": 0, "param3": 0},
+        "0x05": {"name": "请求返航", "param1": 0, "param2": 0, "param3": 0},
+        "0x06": {"name": "开始执行任务", "param1": 0, "param2": 0, "param3": 0}
+      }
+    },
+    "0x06": {
+      "name": "系统状态查询",
+      "operations": {
+        "0x01": {"name": "查询电池状态", "param1": 0, "param2": 0, "param3": 0},
+        "0x02": {"name": "查询燃油状态", "param1": 0, "param2": 0, "param3": 0},
+        "0x03": {"name": "查询弹药状态", "param1": 0, "param2": 0, "param3": 0},
+        "0x04": {"name": "查询位置信息", "param1": 0, "param2": 0, "param3": 0},
+        "0x05": {"name": "查询所有系统状态", "param1": 0, "param2": 0, "param3": 0},
+        "0x06": {"name": "查询通信状态", "param1": 0, "param2": 0, "param3": 0},
+        "0x07": {"name": "查询传感器状态", "param1": 0, "param2": 0, "param3": 0}
+      }
+    },
+    "0x07": {
+      "name": "无人机控制指令",
+      "operations": {
+        "0x01": {"name": "起飞", "param1": 0, "param2": 0, "param3": 0},
+        "0x02": {"name": "降落", "param1": 0, "param2": 0, "param3": 0},
+        "0x03": {"name": "返航", "param1": 0, "param2": 0, "param3": 0},
+        "0x04": {"name": "悬停", "param1": 0, "param2": 0, "param3": 0},
+        "0x05": {"name": "上升/下降", "param1_range": [-500, 500], "param2": 0, "param3": 0},
+        "0x06": {"name": "前进/后退", "param1_range": [-500, 500], "param2": 0, "param3": 0},
+        "0x07": {"name": "左移/右移", "param1_range": [-500, 500], "param2": 0, "param3": 0},
+        "0x08": {"name": "光电吊舱变焦(放大)", "param1": 0, "param2": 0, "param3": 0},
+        "0x09": {"name": "光电吊舱变焦(缩小)", "param1": 0, "param2": 0, "param3": 0},
+        "0x0A": {"name": "光电吊舱云台左转", "param1_range": [-9000, 9000], "param2": 0, "param3": 0},
+        "0x0B": {"name": "光电吊舱云台右转", "param1_range": [-9000, 9000], "param2": 0, "param3": 0},
+        "0x0C": {"name": "光电吊舱云台上仰", "param1_range": [-9000, 9000], "param2": 0, "param3": 0},
+        "0x0D": {"name": "光电吊舱云台下俯", "param1_range": [-9000, 9000], "param2": 0, "param3": 0}
+      }
+    },
+    "0x08": {
+      "name": "无人车控制指令",
+      "operations": {
+        "0x01": {"name": "工作模式", "param1": 0, "param2": 0, "param3_range": [1, 2]},
+        "0x02": {"name": "紧急停止", "param1": 0, "param2": 0, "param3": 0},
+        "0x03": {"name": "UGV前进", "param1": 0, "param2": 0, "param3": 0},
+        "0x04": {"name": "UGV后退", "param1": 0, "param2": 0, "param3": 0},
+        "0x05": {"name": "UGV左转", "param1": 0, "param2": 0, "param3": 0},
+        "0x06": {"name": "UGV右转", "param1": 0, "param2": 0, "param3": 0},
+        "0x07": {"name": "UGV停止", "param1": 0, "param2": 0, "param3": 0},
+        "0x08": {"name": "设置UGV速度", "param1_range": [0, 500], "param2": 0, "param3": 0},
+        "0x09": {"name": "UGV前进N米", "param1_range": [100, 1000], "param2": 0, "param3": 0},
+        "0x0A": {"name": "UGV后退N米", "param1_range": [100, 1000], "param2": 0, "param3": 0},
+        "0x0B": {"name": "UGV左转N度", "param1_range": [100, 18000], "param2": 0, "param3": 0},
+        "0x0C": {"name": "UGV右转N度", "param1_range": [100, 18000], "param2": 0, "param3": 0},
+        "0x0D": {"name": "UGV跟随", "param1": 0, "param2": 0, "param3": 0},
+        "0x0E": {"name": "UGV切换至自主模式", "param1": 0, "param2": 0, "param3": 0},
+        "0x0F": {"name": "UGV切换至手动模式", "param1": 0, "param2": 0, "param3": 0}
+      }
+    },
+    "0x09": {
+      "name": "应急指令",
+      "operations": {
+        "0x01": {"name": "紧急制动(急停)", "param1": 0, "param2": 0, "param3": 0},
+        "0x02": {"name": "紧急恢复(缓停)", "param1": 0, "param2": 0, "param3": 0},
+        "0x03": {"name": "释放烟雾/诱饵", "param1": 0, "param2": 0, "param3": 0},
+        "0x04": {"name": "发送求救信号", "param1": 0, "param2": 0, "param3": 0},
+        "0x05": {"name": "进入安全模式", "param1": 0, "param2": 0, "param3": 0}
+      }
+    }
+  },
+  "test_scenarios": {
+    "normal": {
+      "description": "正常指令测试",
+      "categories": ["0x01", "0x02", "0x03", "0x04", "0x05", "0x06"],
+      "frequency": 0.5
+    },
+    "environment_control": {
+      "description": "环境控制指令测试",
+      "categories": ["0x01"],
+      "frequency": 1.0
+    },
+    "lighting_control": {
+      "description": "灯光控制指令测试",
+      "categories": ["0x02"],
+      "frequency": 1.0
+    },
+    "drone_control": {
+      "description": "无人机控制指令测试",
+      "categories": ["0x07"],
+      "frequency": 0.5
+    },
+    "ugv_control": {
+      "description": "无人车控制指令测试",
+      "categories": ["0x08"],
+      "frequency": 0.5
+    },
+    "emergency_commands": {
+      "description": "应急指令测试",
+      "categories": ["0x09"],
+      "frequency": 0.1
+    },
+    "navigation_commands": {
+      "description": "导航指令测试",
+      "categories": ["0x05"],
+      "frequency": 0.2
+    },
+    "status_query": {
+      "description": "状态查询指令测试",
+      "categories": ["0x06"],
+      "frequency": 1.0
+    },
+    "extreme_values": {
+      "description": "极端值测试",
+      "categories": ["0x01", "0x02", "0x03", "0x04", "0x05", "0x06", "0x07", "0x08", "0x09"],
+      "frequency": 0.1
+    }
+  },
+  "validation_rules": {
+    "param_limits": {
+      "param1_min": -2147483647,
+      "param1_max": 2147483647,
+      "param2_min": -2147483647,
+      "param2_max": 2147483647,
+      "param3_min": 0,
+      "param3_max": 255
+    },
+    "command_id_range": {
+      "min": 1,
+      "max": 4294967295
+    },
+    "category_range": {
+      "min": 1,
+      "max": 9
+    },
+    "operation_range": {
+      "min": 1,
+      "max": 255
+    }
+  }
+}
+

@@ -1,0 +1,94 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from chest_interfaces/msg/EquipmentState.msg
+// generated code does not contain a copyright notice
+
+
+module chest_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " EquipmentState.msg")
+    struct EquipmentState {
+      @verbatim (language="comment", text=
+        " 弹药状态 (动态类型/数量)" "\n"
+        " 弹药类型 [\"穿甲弹\", \"高爆弹\", ...]")
+      sequence<string> ammo_types;
+
+      @verbatim (language="comment", text=
+        " 对应数量 [数量1, 数量2, ...]")
+      sequence<uint8> ammo_counts;
+
+      @verbatim (language="comment", text=
+        " 光电转台状态 (弧度制)" "\n"
+        " 俯仰角(弧度)")
+      float gimbal_pitch;
+
+      @verbatim (language="comment", text=
+        " 方位角(弧度)")
+      float gimbal_yaw;
+
+      @verbatim (language="comment", text=
+        " 转台是否激活")
+      boolean gimbal_is_active;
+
+      @verbatim (language="comment", text=
+        " 车辆核心状态" "\n"
+        " 经度(WGS84)")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        " 纬度(WGS84)")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        " 海拔高度(米)")
+      double altitude;
+
+      @verbatim (language="comment", text=
+        " 对地高度(米)(仅无人机有效，其他平台填0)")
+      double ground_altitude;
+
+      @verbatim (language="comment", text=
+        " 朝向(弧度，0为正北)")
+      float heading;
+
+      @verbatim (language="comment", text=
+        " 车速(km/h)")
+      float speed;
+
+      @verbatim (language="comment", text=
+        " 油量(0.0-1.0)")
+      float fuel_level;
+
+      @verbatim (language="comment", text=
+        " 电量(0.0-1.0)")
+      float battery_level;
+
+      @verbatim (language="comment", text=
+        " 车辆姿态 (三轴弧度)" "\n"
+        " 横滚角(弧度)")
+      float roll;
+
+      @verbatim (language="comment", text=
+        " 俯仰角(弧度)")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        " 偏航角(弧度)")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        " 告警系统" "\n"
+        " 当前活动告警 [\"引擎过热\", \"电池低电量\", ...]")
+      sequence<string> warnings;
+
+      @verbatim (language="comment", text=
+        " 通用状态容器 (保留扩展性)" "\n"
+        " 其他状态名称")
+      sequence<string> state_names;
+
+      @verbatim (language="comment", text=
+        " 对应数值")
+      sequence<float> state_values;
+    };
+  };
+};

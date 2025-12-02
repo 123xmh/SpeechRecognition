@@ -1,0 +1,53 @@
+[0.130s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy LD_LIBRARY_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/zkxt/Documents/TK30/bianjiexiongkong/src/voice_processing -DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing
+[0.364s] -- The C compiler identification is GNU 9.4.0
+[0.554s] -- The CXX compiler identification is GNU 9.4.0
+[0.566s] -- Check for working C compiler: /usr/bin/cc
+[0.854s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.855s] -- Detecting C compiler ABI info
+[1.141s] -- Detecting C compiler ABI info - done
+[1.169s] -- Detecting C compile features
+[1.170s] -- Detecting C compile features - done
+[1.176s] -- Check for working CXX compiler: /usr/bin/c++
+[1.434s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.440s] -- Detecting CXX compiler ABI info
+[1.817s] -- Detecting CXX compiler ABI info - done
+[1.935s] -- Detecting CXX compile features
+[1.939s] -- Detecting CXX compile features - done
+[1.958s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.042s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.459s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.463s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.544s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.895s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.933s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.323s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.325s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.327s] -- Looking for pthread.h
+[3.641s] -- Looking for pthread.h - found
+[3.642s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.978s] -- Looking for pthread_create in pthreads
+[4.204s] -- Looking for pthread_create in pthreads - not found
+[4.204s] -- Looking for pthread_create in pthread
+[4.381s] -- Looking for pthread_create in pthread - found
+[4.382s] -- Found Threads: TRUE  
+[5.031s] -- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)
+[5.367s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.417s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.419s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.420s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zkxt/Documents/TK30/bianjiexiongkong/src/voice_processing/include>
+[5.420s] -- Configured cppcheck exclude dirs and/or files: 
+[5.429s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.429s] -- Configured cpplint exclude dirs and/or files: 
+[5.429s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.429s] -- Added test 'lint_cmake' to check CMake code style
+[5.430s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.430s] -- Added test 'uncrustify' to check C / C++ code style
+[5.430s] -- Configured uncrustify additional arguments: 
+[5.430s] -- Added test 'xmllint' to check XML markup files
+[5.436s] -- Configuring done
+[5.727s] -- Generating done
+[5.836s] -- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing

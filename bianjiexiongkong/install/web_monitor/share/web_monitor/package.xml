@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>web_monitor</name>
+  <version>0.0.0</version>
+  <description>Web-based monitoring system for TK Chest Controller</description>
+  <maintainer email="jinshuxin@example.com">jinshuxin</maintainer>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>chest_interfaces</exec_depend>
+  <exec_depend>websocket-server</exec_depend>
+  <exec_depend>python3-aiohttp</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

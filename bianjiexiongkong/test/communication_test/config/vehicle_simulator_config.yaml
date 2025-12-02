@@ -1,0 +1,47 @@
+# 车辆节点模拟器配置文件
+
+vehicle_simulator:
+  # 网络配置
+  network:
+    # 车辆节点监听端口（接收来自头盔的数据）
+    vehicle_port: 8887
+    
+    # 头盔节点配置（发送数据给头盔）
+    helmet:
+      ip: "127.0.0.1"  # 头盔节点IP地址
+      port: 8888       # 头盔节点端口
+      
+    # Web界面配置
+    web:
+      port: 9091       # Web界面端口
+      host: "0.0.0.0"  # Web界面绑定地址
+      
+  # 数据发送配置
+  data:
+    # 车辆状态发送配置
+    vehicle_status:
+      enabled: false   # 默认不开启
+      interval: 0.05   # 发送间隔（秒），20Hz
+      
+    # 模拟数据配置
+    simulation:
+      # 位置模拟（北京附近）
+      base_longitude: 116397000  # 北京经度 * 1e7
+      base_latitude: 39900000    # 北京纬度 * 1e7
+      base_altitude: 5000        # 海拔50米 * 100
+      
+      # 运动模拟
+      movement_radius: 1000      # 运动半径（米）
+      movement_speed: 0.1        # 运动速度（弧度/秒）
+      
+      # 状态模拟
+      initial_fuel: 80           # 初始油量百分比
+      initial_battery: 90        # 初始电量百分比
+      initial_ammo1: 30          # 初始弹药1数量
+      initial_ammo2: 20          # 初始弹药2数量
+      initial_ammo3: 10          # 初始弹药3数量
+      
+  # 日志配置
+  logging:
+    level: "INFO"      # 日志级别：DEBUG, INFO, WARN, ERROR
+    enable_udp_log: true  # 是否记录UDP通信日志

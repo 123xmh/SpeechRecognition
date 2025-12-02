@@ -1,0 +1,3 @@
+[console_scripts]
+web_monitor_node = web_monitor.web_monitor_node:main
+

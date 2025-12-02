@@ -1,0 +1,12 @@
+msg/ButtonState.idl
+msg/ButtonState.msg
+msg/EquipmentState.idl
+msg/EquipmentState.msg
+msg/HeadTracking.idl
+msg/HeadTracking.msg
+msg/VideoSource.idl
+msg/VideoSource.msg
+msg/VoiceCommand.idl
+msg/VoiceCommand.msg
+msg/VoiceText.idl
+msg/VoiceText.msg

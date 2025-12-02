@@ -1,3 +1,7 @@
+sudo watch -n 0.5 cat /sys/kernel/debug/rknpu/load  # 查看npu使用情况
+
+source bianjiexiongkong/install/setup.bash
+
 python speech-recognition-from-microphone-with-endpoint-detection.py \
   --provider=rknn \
   --encoder=./moder/encoder.rknn \
@@ -12,8 +16,8 @@ python speech-recognition-from-microphone-with-endpoint-detection.py \
   --decoder=./moder/decoder.rknn \
   --joiner=./moder/joiner.rknn \
   --tokens=./moder/tokens.txt \
+  --num-threads=-4 \
   --hr-dict-dir=./PhraseReplacement/dict \
   --hr-lexicon=./PhraseReplacement/lexicon.txt \
   --hr-rule-fsts=./PhraseReplacement/replace.fst
-
 

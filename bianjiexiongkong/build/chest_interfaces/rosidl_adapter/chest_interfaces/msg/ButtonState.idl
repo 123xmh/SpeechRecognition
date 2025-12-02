@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from chest_interfaces/msg/ButtonState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module chest_interfaces {
+  module msg {
+    module ButtonState_Constants {
+      const uint8 FRONT_SCREEN_DEFAULT = 0;
+      const uint8 FRONT_SCREEN_MODE_A = 1;
+      const uint8 FRONT_SCREEN_MODE_B = 2;
+      const uint8 FRONT_SCREEN_MODE_C = 3;
+      const uint8 HMD_OVERLAY_NONE = 0;
+      const uint8 HMD_OVERLAY_MINIMAL = 1;
+      const uint8 HMD_OVERLAY_FULL = 2;
+    };
+    struct ButtonState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " 侧按键1：头动开关")
+      boolean head_tracking_enabled;
+
+      @verbatim (language="comment", text=
+        " 侧按键2：语音开关")
+      boolean voice_command_enabled;
+
+      @verbatim (language="comment", text=
+        " 正按键1：正面屏开关")
+      boolean front_screen_enabled;
+
+      @verbatim (language="comment", text=
+        " 正按键2：正面屏显示模式 (语义化枚举)")
+      uint8 front_screen_mode;
+
+      @verbatim (language="comment", text=
+        " 正按键3：头显视频源 (索引)" "\n"
+        " 选中的视频源索引")
+      uint8 hmd_video_source;
+
+      @verbatim (language="comment", text=
+        " 正按键4：头显叠加模式 (语义化枚举)")
+      uint8 hmd_overlay_mode;
+
+      @verbatim (language="comment", text=
+        " 正按键5：头显开关")
+      boolean hmd_enabled;
+    };
+  };
+};

@@ -1,0 +1,40 @@
+[0.115s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/head_tracking': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing:/home/zkxt/Documents/TK30/bianjiexiongkong/install/video_source_loader:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy LD_LIBRARY_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking/lib:/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.12/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/zkxt/Documents/TK30/bianjiexiongkong/src/head_tracking -DCMAKE_INSTALL_PREFIX=/home/zkxt/Documents/TK30/bianjiexiongkong/install/head_tracking
+[0.445s] -- The C compiler identification is GNU 9.4.0
+[0.587s] -- The CXX compiler identification is GNU 9.4.0
+[0.594s] -- Check for working C compiler: /usr/bin/cc
+[0.836s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.838s] -- Detecting C compiler ABI info
+[1.133s] -- Detecting C compiler ABI info - done
+[1.158s] -- Detecting C compile features
+[1.159s] -- Detecting C compile features - done
+[1.164s] -- Check for working CXX compiler: /usr/bin/c++
+[1.615s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.631s] -- Detecting CXX compiler ABI info
+[2.027s] -- Detecting CXX compiler ABI info - done
+[2.099s] -- Detecting CXX compile features
+[2.102s] -- Detecting CXX compile features - done
+[2.110s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.174s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.175s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.560s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.742s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.757s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.058s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.196s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.588s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.608s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.609s] -- Looking for pthread.h
+[3.846s] -- Looking for pthread.h - found
+[3.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.023s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.023s] -- Looking for pthread_create in pthreads
+[4.258s] -- Looking for pthread_create in pthreads - not found
+[4.258s] -- Looking for pthread_create in pthread
+[4.554s] -- Looking for pthread_create in pthread - found
+[4.560s] -- Found Threads: TRUE  
+[5.545s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.027s] -- Found chest_interfaces: 0.0.1 (/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/share/chest_interfaces/cmake)
+[6.272s] -- Configuring done
+[6.292s] -- Generating done
+[6.301s] -- Build files have been written to: /home/zkxt/Documents/TK30/bianjiexiongkong/build/head_tracking

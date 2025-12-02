@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/web_monitor/web_monitor.egg-info
+writing ../../build/web_monitor/web_monitor.egg-info/PKG-INFO
+writing dependency_links to ../../build/web_monitor/web_monitor.egg-info/dependency_links.txt
+writing entry points to ../../build/web_monitor/web_monitor.egg-info/entry_points.txt
+writing requirements to ../../build/web_monitor/web_monitor.egg-info/requires.txt
+writing top-level names to ../../build/web_monitor/web_monitor.egg-info/top_level.txt
+writing manifest file '../../build/web_monitor/web_monitor.egg-info/SOURCES.txt'
+reading manifest file '../../build/web_monitor/web_monitor.egg-info/SOURCES.txt'
+writing manifest file '../../build/web_monitor/web_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor
+copying web_monitor/__init__.py -> /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor
+copying web_monitor/web_monitor_node.py -> /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static
+copying web_monitor/static/index.html -> /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static/js
+copying web_monitor/static/js/app.js -> /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static/js
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static/css
+copying web_monitor/static/css/style.css -> /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static/css
+running install
+running install_lib
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor
+copying /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/__init__.py -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor
+copying /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/web_monitor_node.py -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor/static
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor/static/js
+copying /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static/js/app.js -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor/static/js
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor/static/css
+copying /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static/css/style.css -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor/static/css
+copying /home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/build/lib/web_monitor/static/index.html -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor/static
+byte-compiling /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor/web_monitor_node.py to web_monitor_node.cpython-38.pyc
+running install_data
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/ament_index
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/ament_index/resource_index
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/ament_index/resource_index/packages
+copying resource/web_monitor -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/ament_index/resource_index/packages
+copying package.xml -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/launch
+copying launch/web_monitor.launch.py -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/launch
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/scripts
+copying scripts/setup_wsl2_network.sh -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/scripts
+copying scripts/start_web_monitor.sh -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/scripts
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/tools
+copying tools/setup_wsl2_port_forward.bat -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/tools
+copying tools/setup_wsl2_port_forward.ps1 -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/tools
+creating /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/docs
+copying docs/WSL2_配置说明.md -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/docs
+copying docs/Windows配置说明.md -> /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/share/web_monitor/docs
+running install_egg_info
+Copying ../../build/web_monitor/web_monitor.egg-info to /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages/web_monitor-0.0.0-py3.8.egg-info
+running install_scripts
+Installing web_monitor_node script to /home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/web_monitor
+writing list of installed files to '/home/zkxt/Documents/TK30/bianjiexiongkong/build/web_monitor/install.log'

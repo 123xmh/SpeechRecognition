@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ar_display</name>
+  <version>0.3.0</version>
+  <description>增强现实显示系统</description>
+  
+  <maintainer email="support@example.com">AR开发团队</maintainer>
+  <license>Apache License 2.0</license>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>chest_interfaces</depend>
+  <depend>opencv</depend>
+  <depend>ncursesw</depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

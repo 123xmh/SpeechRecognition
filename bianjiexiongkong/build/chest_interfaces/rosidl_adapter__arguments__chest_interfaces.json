@@ -1,0 +1,11 @@
+{
+  "package_name": "chest_interfaces",
+  "non_idl_tuples": [
+    "/home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces:msg/ButtonState.msg",
+    "/home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces:msg/EquipmentState.msg",
+    "/home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces:msg/HeadTracking.msg",
+    "/home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces:msg/VideoSource.msg",
+    "/home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces:msg/VoiceCommand.msg",
+    "/home/zkxt/Documents/TK30/bianjiexiongkong/src/chest_interfaces:msg/VoiceText.msg"
+  ]
+}

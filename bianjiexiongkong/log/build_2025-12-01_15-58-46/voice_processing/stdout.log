@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target voice_processing_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/voice_processing_node.dir/src/keyword_matcher.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/voice_processing_node.dir/src/voice_processing_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable voice_processing_node[0m
+[100%] Built target voice_processing_node
+-- Install configuration: ""
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib/voice_processing/voice_processing_node
+-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib/voice_processing/voice_processing_node" to ""
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/include
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/include/voice_processing
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/include/voice_processing/keyword_matcher.hpp
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/library_path.sh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/library_path.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/launch
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/launch/voice_processing.launch.py
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/ament_index/resource_index/package_run_dependencies/voice_processing
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/ament_index/resource_index/parent_prefix_path/voice_processing
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/ament_prefix_path.sh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/ament_prefix_path.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/path.sh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/path.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/local_setup.bash
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/local_setup.sh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/local_setup.zsh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/local_setup.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/package.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/ament_index/resource_index/packages/voice_processing
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/voice_processingConfig.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/voice_processingConfig-version.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/package.xml

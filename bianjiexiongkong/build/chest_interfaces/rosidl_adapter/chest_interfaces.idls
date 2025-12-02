@@ -1,0 +1,6 @@
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces/rosidl_adapter/chest_interfaces:msg/ButtonState.idl
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces/rosidl_adapter/chest_interfaces:msg/EquipmentState.idl
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces/rosidl_adapter/chest_interfaces:msg/HeadTracking.idl
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces/rosidl_adapter/chest_interfaces:msg/VideoSource.idl
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces/rosidl_adapter/chest_interfaces:msg/VoiceCommand.idl
+/home/zkxt/Documents/TK30/bianjiexiongkong/build/chest_interfaces/rosidl_adapter/chest_interfaces:msg/VoiceText.idl

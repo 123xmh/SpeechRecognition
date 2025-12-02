@@ -1,0 +1,37 @@
+[0.039s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing -- -j8 -l8
+[0.294s] [35m[1mScanning dependencies of target voice_processing_node[0m
+[0.521s] [ 33%] [32mBuilding CXX object CMakeFiles/voice_processing_node.dir/src/keyword_matcher.cpp.o[0m
+[0.560s] [ 66%] [32mBuilding CXX object CMakeFiles/voice_processing_node.dir/src/voice_processing_node.cpp.o[0m
+[15.865s] [100%] [32m[1mLinking CXX executable voice_processing_node[0m
+[18.055s] [100%] Built target voice_processing_node
+[18.080s] Invoked command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing' returned '0': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing -- -j8 -l8
+[18.109s] Invoking command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing
+[18.122s] -- Install configuration: ""
+[18.123s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib/voice_processing/voice_processing_node
+[18.129s] -- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/lib/voice_processing/voice_processing_node" to ""
+[18.131s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/include
+[18.131s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/include/voice_processing
+[18.132s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/include/voice_processing/keyword_matcher.hpp
+[18.133s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/library_path.sh
+[18.133s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/library_path.dsv
+[18.134s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/launch
+[18.134s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/launch/voice_processing.launch.py
+[18.136s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/ament_index/resource_index/package_run_dependencies/voice_processing
+[18.137s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/ament_index/resource_index/parent_prefix_path/voice_processing
+[18.138s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/ament_prefix_path.sh
+[18.138s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/ament_prefix_path.dsv
+[18.138s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/path.sh
+[18.138s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/environment/path.dsv
+[18.138s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/local_setup.bash
+[18.139s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/local_setup.sh
+[18.139s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/local_setup.zsh
+[18.139s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/local_setup.dsv
+[18.139s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/package.dsv
+[18.139s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/ament_index/resource_index/packages/voice_processing
+[18.139s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.140s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.140s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/ament_cmake_export_libraries-extras.cmake
+[18.140s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/voice_processingConfig.cmake
+[18.140s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/cmake/voice_processingConfig-version.cmake
+[18.141s] -- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/voice_processing/share/voice_processing/package.xml
+[18.141s] Invoked command in '/home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing' returned '0': CMAKE_PREFIX_PATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy PYTHONPATH=/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/zkxt/Documents/TK30/bianjiexiongkong/build/voice_processing

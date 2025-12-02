@@ -1,0 +1,4 @@
+source;share/head_tracking/local_setup.bash
+source;share/head_tracking/local_setup.dsv
+source;share/head_tracking/local_setup.sh
+source;share/head_tracking/local_setup.zsh

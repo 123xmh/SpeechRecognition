@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+package communication.proto;
+
+// 头部追踪数据
+message HeadTracking {
+  float pitch = 1;
+  float yaw = 2;
+  bool is_tracking = 3;
+  float confidence = 4;
+}
+
+// 语音命令
+message VoiceCommand {
+  bool is_valid = 1;
+  uint32 command_type = 2;
+  string raw_text = 3;
+  string normalized_cmd = 4;
+}
+
+// 按钮状态
+message ButtonState {
+  bool head_tracking_enabled = 1;
+  bool voice_command_enabled = 2;
+  bool front_screen_enabled = 3;
+  uint32 front_screen_mode = 4;
+  uint32 hmd_video_source = 5;
+  uint32 hmd_overlay_mode = 6;
+  bool hmd_enabled = 7;
+}
+
+// 视频源信息
+message VideoSource {
+  uint32 id = 1;
+  string ip_address = 2;
+  string source_name = 3;
+  uint32 fps = 4;
+  bool is_available = 5;
+}
+
+// 设备状态
+message EquipmentState {
+  string device_name = 1;
+  string state_name = 2;
+  repeated float values = 3;
+  repeated string params = 4;
+}
+
+// 系统状态
+message SystemStatus {
+  uint32 active_video_source_idx = 1;
+  repeated VideoSource video_sources = 2;
+  repeated EquipmentState states = 3;
+}
+
+// 顶层消息容器
+message ChestMessage {
+  HeadTracking head_tracking = 1;
+  VoiceCommand voice_command = 2;
+  ButtonState button_state = 3;
+  SystemStatus system_status = 4;
+  
+}

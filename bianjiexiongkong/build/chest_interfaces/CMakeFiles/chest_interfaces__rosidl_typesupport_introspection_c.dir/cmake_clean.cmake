@@ -1,0 +1,27 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/button_state__type_support.c.o"
+  "CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/equipment_state__type_support.c.o"
+  "CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/head_tracking__type_support.c.o"
+  "CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/video_source__type_support.c.o"
+  "CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_command__type_support.c.o"
+  "CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_text__type_support.c.o"
+  "libchest_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libchest_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/button_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/button_state__type_support.c"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/equipment_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/equipment_state__type_support.c"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/head_tracking__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/head_tracking__type_support.c"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/video_source__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/video_source__type_support.c"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_command__type_support.c"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_text__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/chest_interfaces/msg/detail/voice_text__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/chest_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

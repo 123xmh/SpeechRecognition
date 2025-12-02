@@ -1,0 +1,325 @@
+[0.000000] (-) TimerEvent: {}
+[0.000602] (-) JobUnselected: {'identifier': 'ar_display'}
+[0.001166] (-) JobUnselected: {'identifier': 'button_simulator'}
+[0.001338] (-) JobUnselected: {'identifier': 'chest_interfaces'}
+[0.001770] (-) JobUnselected: {'identifier': 'communication'}
+[0.001942] (-) JobUnselected: {'identifier': 'head_tracking'}
+[0.002356] (-) JobUnselected: {'identifier': 'video_source_loader'}
+[0.002526] (-) JobUnselected: {'identifier': 'voice_processing'}
+[0.002687] (-) JobUnselected: {'identifier': 'web_monitor'}
+[0.002857] (controller_display) JobQueued: {'identifier': 'controller_display', 'dependencies': OrderedDict([('chest_interfaces', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces')])}
+[0.003041] (controller_display) JobStarted: {'identifier': 'controller_display'}
+[0.027882] (controller_display) JobProgress: {'identifier': 'controller_display', 'progress': 'cmake'}
+[0.029240] (controller_display) JobProgress: {'identifier': 'controller_display', 'progress': 'build'}
+[0.030444] (controller_display) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display', '--', '-j8', '-l8'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '922'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '780'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3922'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:42209'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/979,unix/ubuntu2004:/tmp/.ICE-unix/979'), ('INVOCATION_ID', 'e0218547ac014b44a9be1d692878dfc9'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.098427] (-) TimerEvent: {}
+[0.196890] (controller_display) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controller_display_node\x1b[0m\n'}
+[0.199492] (-) TimerEvent: {}
+[0.294307] (controller_display) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller_display_node.dir/src/controller_display_node.cpp.o\x1b[0m\n'}
+[0.299662] (-) TimerEvent: {}
+[0.400378] (-) TimerEvent: {}
+[0.501283] (-) TimerEvent: {}
+[0.602190] (-) TimerEvent: {}
+[0.703068] (-) TimerEvent: {}
+[0.803888] (-) TimerEvent: {}
+[0.904717] (-) TimerEvent: {}
+[1.005596] (-) TimerEvent: {}
+[1.106405] (-) TimerEvent: {}
+[1.207213] (-) TimerEvent: {}
+[1.308053] (-) TimerEvent: {}
+[1.408859] (-) TimerEvent: {}
+[1.509653] (-) TimerEvent: {}
+[1.610447] (-) TimerEvent: {}
+[1.711236] (-) TimerEvent: {}
+[1.812086] (-) TimerEvent: {}
+[1.912490] (-) TimerEvent: {}
+[2.012897] (-) TimerEvent: {}
+[2.113316] (-) TimerEvent: {}
+[2.213738] (-) TimerEvent: {}
+[2.314141] (-) TimerEvent: {}
+[2.414635] (-) TimerEvent: {}
+[2.517294] (-) TimerEvent: {}
+[2.618131] (-) TimerEvent: {}
+[2.718948] (-) TimerEvent: {}
+[2.819802] (-) TimerEvent: {}
+[2.920646] (-) TimerEvent: {}
+[3.021542] (-) TimerEvent: {}
+[3.122381] (-) TimerEvent: {}
+[3.223201] (-) TimerEvent: {}
+[3.324086] (-) TimerEvent: {}
+[3.424898] (-) TimerEvent: {}
+[3.525700] (-) TimerEvent: {}
+[3.626572] (-) TimerEvent: {}
+[3.727383] (-) TimerEvent: {}
+[3.828186] (-) TimerEvent: {}
+[3.929015] (-) TimerEvent: {}
+[4.029800] (-) TimerEvent: {}
+[4.130600] (-) TimerEvent: {}
+[4.231387] (-) TimerEvent: {}
+[4.332206] (-) TimerEvent: {}
+[4.433027] (-) TimerEvent: {}
+[4.533918] (-) TimerEvent: {}
+[4.634691] (-) TimerEvent: {}
+[4.735544] (-) TimerEvent: {}
+[4.836453] (-) TimerEvent: {}
+[4.937395] (-) TimerEvent: {}
+[5.038246] (-) TimerEvent: {}
+[5.139057] (-) TimerEvent: {}
+[5.239534] (-) TimerEvent: {}
+[5.339946] (-) TimerEvent: {}
+[5.440359] (-) TimerEvent: {}
+[5.540777] (-) TimerEvent: {}
+[5.641265] (-) TimerEvent: {}
+[5.742117] (-) TimerEvent: {}
+[5.842966] (-) TimerEvent: {}
+[5.943819] (-) TimerEvent: {}
+[6.044321] (-) TimerEvent: {}
+[6.144784] (-) TimerEvent: {}
+[6.245211] (-) TimerEvent: {}
+[6.345666] (-) TimerEvent: {}
+[6.446111] (-) TimerEvent: {}
+[6.546521] (-) TimerEvent: {}
+[6.646941] (-) TimerEvent: {}
+[6.747337] (-) TimerEvent: {}
+[6.847786] (-) TimerEvent: {}
+[6.948262] (-) TimerEvent: {}
+[7.048672] (-) TimerEvent: {}
+[7.149260] (-) TimerEvent: {}
+[7.249791] (-) TimerEvent: {}
+[7.350628] (-) TimerEvent: {}
+[7.451501] (-) TimerEvent: {}
+[7.552312] (-) TimerEvent: {}
+[7.653143] (-) TimerEvent: {}
+[7.753983] (-) TimerEvent: {}
+[7.854827] (-) TimerEvent: {}
+[7.956035] (-) TimerEvent: {}
+[8.056910] (-) TimerEvent: {}
+[8.157712] (-) TimerEvent: {}
+[8.258730] (-) TimerEvent: {}
+[8.359701] (-) TimerEvent: {}
+[8.460491] (-) TimerEvent: {}
+[8.561277] (-) TimerEvent: {}
+[8.662105] (-) TimerEvent: {}
+[8.762918] (-) TimerEvent: {}
+[8.863728] (-) TimerEvent: {}
+[8.964550] (-) TimerEvent: {}
+[9.065361] (-) TimerEvent: {}
+[9.166166] (-) TimerEvent: {}
+[9.266956] (-) TimerEvent: {}
+[9.367748] (-) TimerEvent: {}
+[9.468562] (-) TimerEvent: {}
+[9.569354] (-) TimerEvent: {}
+[9.670182] (-) TimerEvent: {}
+[9.771016] (-) TimerEvent: {}
+[9.872345] (-) TimerEvent: {}
+[9.973413] (-) TimerEvent: {}
+[10.074371] (-) TimerEvent: {}
+[10.178168] (-) TimerEvent: {}
+[10.278986] (-) TimerEvent: {}
+[10.379803] (-) TimerEvent: {}
+[10.480643] (-) TimerEvent: {}
+[10.581521] (-) TimerEvent: {}
+[10.682382] (-) TimerEvent: {}
+[10.783174] (-) TimerEvent: {}
+[10.883938] (-) TimerEvent: {}
+[10.984378] (-) TimerEvent: {}
+[11.084804] (-) TimerEvent: {}
+[11.185227] (-) TimerEvent: {}
+[11.285655] (-) TimerEvent: {}
+[11.386141] (-) TimerEvent: {}
+[11.486590] (-) TimerEvent: {}
+[11.586996] (-) TimerEvent: {}
+[11.687393] (-) TimerEvent: {}
+[11.787788] (-) TimerEvent: {}
+[11.888196] (-) TimerEvent: {}
+[11.988583] (-) TimerEvent: {}
+[12.088972] (-) TimerEvent: {}
+[12.189367] (-) TimerEvent: {}
+[12.289758] (-) TimerEvent: {}
+[12.390146] (-) TimerEvent: {}
+[12.490613] (-) TimerEvent: {}
+[12.592324] (-) TimerEvent: {}
+[12.693157] (-) TimerEvent: {}
+[12.794502] (-) TimerEvent: {}
+[12.895382] (-) TimerEvent: {}
+[12.996174] (-) TimerEvent: {}
+[13.096988] (-) TimerEvent: {}
+[13.197808] (-) TimerEvent: {}
+[13.298631] (-) TimerEvent: {}
+[13.399424] (-) TimerEvent: {}
+[13.500213] (-) TimerEvent: {}
+[13.601012] (-) TimerEvent: {}
+[13.701831] (-) TimerEvent: {}
+[13.802659] (-) TimerEvent: {}
+[13.903428] (-) TimerEvent: {}
+[14.003868] (-) TimerEvent: {}
+[14.104280] (-) TimerEvent: {}
+[14.204685] (-) TimerEvent: {}
+[14.305099] (-) TimerEvent: {}
+[14.405507] (-) TimerEvent: {}
+[14.505941] (-) TimerEvent: {}
+[14.606391] (-) TimerEvent: {}
+[14.706807] (-) TimerEvent: {}
+[14.807289] (-) TimerEvent: {}
+[14.907696] (-) TimerEvent: {}
+[15.008192] (-) TimerEvent: {}
+[15.108635] (-) TimerEvent: {}
+[15.209150] (-) TimerEvent: {}
+[15.309987] (-) TimerEvent: {}
+[15.410781] (-) TimerEvent: {}
+[15.511697] (-) TimerEvent: {}
+[15.612521] (-) TimerEvent: {}
+[15.713391] (-) TimerEvent: {}
+[15.814191] (-) TimerEvent: {}
+[15.915035] (-) TimerEvent: {}
+[16.015804] (-) TimerEvent: {}
+[16.116575] (-) TimerEvent: {}
+[16.217328] (-) TimerEvent: {}
+[16.322867] (-) TimerEvent: {}
+[16.423644] (-) TimerEvent: {}
+[16.524481] (-) TimerEvent: {}
+[16.625322] (-) TimerEvent: {}
+[16.726125] (-) TimerEvent: {}
+[16.826952] (-) TimerEvent: {}
+[16.927753] (-) TimerEvent: {}
+[17.028563] (-) TimerEvent: {}
+[17.129348] (-) TimerEvent: {}
+[17.230227] (-) TimerEvent: {}
+[17.331023] (-) TimerEvent: {}
+[17.431859] (-) TimerEvent: {}
+[17.532656] (-) TimerEvent: {}
+[17.633506] (-) TimerEvent: {}
+[17.734307] (-) TimerEvent: {}
+[17.835075] (-) TimerEvent: {}
+[17.935456] (-) TimerEvent: {}
+[18.035859] (-) TimerEvent: {}
+[18.136260] (-) TimerEvent: {}
+[18.236672] (-) TimerEvent: {}
+[18.337136] (-) TimerEvent: {}
+[18.437542] (-) TimerEvent: {}
+[18.537981] (-) TimerEvent: {}
+[18.638385] (-) TimerEvent: {}
+[18.738843] (-) TimerEvent: {}
+[18.839237] (-) TimerEvent: {}
+[18.939629] (-) TimerEvent: {}
+[19.040035] (-) TimerEvent: {}
+[19.140421] (-) TimerEvent: {}
+[19.240825] (-) TimerEvent: {}
+[19.341302] (-) TimerEvent: {}
+[19.441826] (-) TimerEvent: {}
+[19.542799] (-) TimerEvent: {}
+[19.644305] (-) TimerEvent: {}
+[19.745142] (-) TimerEvent: {}
+[19.845954] (-) TimerEvent: {}
+[19.946760] (-) TimerEvent: {}
+[20.047550] (-) TimerEvent: {}
+[20.148320] (-) TimerEvent: {}
+[20.249096] (-) TimerEvent: {}
+[20.349946] (-) TimerEvent: {}
+[20.450759] (-) TimerEvent: {}
+[20.551595] (-) TimerEvent: {}
+[20.652416] (-) TimerEvent: {}
+[20.753240] (-) TimerEvent: {}
+[20.854183] (-) TimerEvent: {}
+[20.955092] (-) TimerEvent: {}
+[21.055877] (-) TimerEvent: {}
+[21.156353] (-) TimerEvent: {}
+[21.256752] (-) TimerEvent: {}
+[21.357163] (-) TimerEvent: {}
+[21.457633] (-) TimerEvent: {}
+[21.558042] (-) TimerEvent: {}
+[21.659025] (-) TimerEvent: {}
+[21.760060] (-) TimerEvent: {}
+[21.860864] (-) TimerEvent: {}
+[21.961656] (-) TimerEvent: {}
+[22.062466] (-) TimerEvent: {}
+[22.163275] (-) TimerEvent: {}
+[22.264058] (-) TimerEvent: {}
+[22.364887] (-) TimerEvent: {}
+[22.465734] (-) TimerEvent: {}
+[22.566554] (-) TimerEvent: {}
+[22.667440] (-) TimerEvent: {}
+[22.768443] (-) TimerEvent: {}
+[22.869240] (-) TimerEvent: {}
+[22.970016] (-) TimerEvent: {}
+[23.070814] (-) TimerEvent: {}
+[23.171691] (-) TimerEvent: {}
+[23.272501] (-) TimerEvent: {}
+[23.373317] (-) TimerEvent: {}
+[23.474215] (-) TimerEvent: {}
+[23.576095] (-) TimerEvent: {}
+[23.677190] (-) TimerEvent: {}
+[23.778044] (-) TimerEvent: {}
+[23.878881] (-) TimerEvent: {}
+[23.979683] (-) TimerEvent: {}
+[24.080433] (-) TimerEvent: {}
+[24.157075] (controller_display) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller_display_node\x1b[0m\n'}
+[24.180619] (-) TimerEvent: {}
+[24.281426] (-) TimerEvent: {}
+[24.382257] (-) TimerEvent: {}
+[24.483117] (-) TimerEvent: {}
+[24.588376] (-) TimerEvent: {}
+[24.689376] (-) TimerEvent: {}
+[24.790364] (-) TimerEvent: {}
+[24.891281] (-) TimerEvent: {}
+[24.992246] (-) TimerEvent: {}
+[25.093021] (-) TimerEvent: {}
+[25.193465] (-) TimerEvent: {}
+[25.293903] (-) TimerEvent: {}
+[25.394340] (-) TimerEvent: {}
+[25.494830] (-) TimerEvent: {}
+[25.595306] (-) TimerEvent: {}
+[25.695793] (-) TimerEvent: {}
+[25.796301] (-) TimerEvent: {}
+[25.896858] (-) TimerEvent: {}
+[25.997848] (-) TimerEvent: {}
+[26.098949] (-) TimerEvent: {}
+[26.199998] (-) TimerEvent: {}
+[26.300918] (-) TimerEvent: {}
+[26.401939] (-) TimerEvent: {}
+[26.502949] (-) TimerEvent: {}
+[26.603867] (-) TimerEvent: {}
+[26.704897] (-) TimerEvent: {}
+[26.805954] (-) TimerEvent: {}
+[26.906918] (-) TimerEvent: {}
+[27.007738] (-) TimerEvent: {}
+[27.108656] (-) TimerEvent: {}
+[27.209466] (-) TimerEvent: {}
+[27.310273] (-) TimerEvent: {}
+[27.411183] (-) TimerEvent: {}
+[27.512119] (-) TimerEvent: {}
+[27.612873] (-) TimerEvent: {}
+[27.692582] (controller_display) StdoutLine: {'line': b'[100%] Built target controller_display_node\n'}
+[27.713066] (-) TimerEvent: {}
+[27.728275] (controller_display) CommandEnded: {'returncode': 0}
+[27.732693] (controller_display) JobProgress: {'identifier': 'controller_display', 'progress': 'install'}
+[27.755020] (controller_display) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display'], 'cwd': '/home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'zkxt'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '922'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/zkxt'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GST_INSPECT_NO_COLORS', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '780'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3922'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'zkxt'), ('JOURNAL_STREAM', '8:42209'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zkxt'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/zkxt/Downloads/yes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu2004:@/tmp/.ICE-unix/979,unix/ubuntu2004:/tmp/.ICE-unix/979'), ('INVOCATION_ID', 'e0218547ac014b44a9be1d692878dfc9'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zkxt/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-621122f711823afe.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zkxt/.config/Code/User/workspaceStorage/29c200c1b92ad277d211b470a658a384/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-34c5604001.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'ubuntu'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zkxt/Documents/TK30/bianjiexiongkong/build/controller_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces/lib/python3.8/site-packages:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zkxt/Documents/TK30/bianjiexiongkong/install/chest_interfaces:/home/zkxt/Documents/TK30/bianjiexiongkong/install/communication:/home/zkxt/Documents/TK30/bianjiexiongkong/install/button_simulator:/home/zkxt/Documents/TK30/bianjiexiongkong/install/ar_display:/home/zkxt/Documents/TK30/bianjiexiongkong/install/web_monitor:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[27.796071] (controller_display) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.801802] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib/controller_display/controller_display_node\n'}
+[27.813153] (-) TimerEvent: {}
+[27.830886] (controller_display) StdoutLine: {'line': b'-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib/controller_display/controller_display_node" to ""\n'}
+[27.832066] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/library_path.sh\n'}
+[27.832302] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/library_path.dsv\n'}
+[27.833740] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/launch\n'}
+[27.834287] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/launch/controller_display.launch.py\n'}
+[27.834789] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/ament_index/resource_index/package_run_dependencies/controller_display\n'}
+[27.835379] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/ament_index/resource_index/parent_prefix_path/controller_display\n'}
+[27.836256] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/ament_prefix_path.sh\n'}
+[27.836828] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/ament_prefix_path.dsv\n'}
+[27.837347] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/path.sh\n'}
+[27.837864] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/path.dsv\n'}
+[27.838400] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/local_setup.bash\n'}
+[27.838915] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/local_setup.sh\n'}
+[27.839460] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/local_setup.zsh\n'}
+[27.839956] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/local_setup.dsv\n'}
+[27.840495] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/package.dsv\n'}
+[27.841049] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/ament_index/resource_index/packages/controller_display\n'}
+[27.841580] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.842122] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.842577] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/cmake/controller_displayConfig.cmake\n'}
+[27.843032] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/cmake/controller_displayConfig-version.cmake\n'}
+[27.843486] (controller_display) StdoutLine: {'line': b'-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/package.xml\n'}
+[27.853122] (controller_display) CommandEnded: {'returncode': 0}
+[27.913330] (-) TimerEvent: {}
+[27.929835] (controller_display) JobEnded: {'identifier': 'controller_display', 'rc': 0}
+[27.931442] (-) EventReactorShutdown: {}

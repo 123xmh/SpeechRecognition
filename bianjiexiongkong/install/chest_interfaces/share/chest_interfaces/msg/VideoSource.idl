@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from chest_interfaces/msg/VideoSource.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module chest_interfaces {
+  module msg {
+    struct VideoSource {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " 唯一标识符 (用于前端绑定)")
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        " IP地址(包含端口号，格式: \"ip:port\")")
+      string ip_address;
+
+      @verbatim (language="comment", text=
+        " 显示名称")
+      string source_name;
+
+      @verbatim (language="comment", text=
+        " 帧率")
+      uint32 fps;
+
+      @verbatim (language="comment", text=
+        " 分辨率宽")
+      uint32 width;
+
+      @verbatim (language="comment", text=
+        " 分辨率高")
+      uint32 height;
+
+      @verbatim (language="comment", text=
+        " 编码格式 (e.g. \"h264\", \"h265\")")
+      string encoding;
+
+      @verbatim (language="comment", text=
+        " 是否可用")
+      boolean is_available;
+    };
+  };
+};

@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target controller_display_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controller_display_node.dir/src/controller_display_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable controller_display_node[0m
+[100%] Built target controller_display_node
+-- Install configuration: ""
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib/controller_display/controller_display_node
+-- Set runtime path of "/home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/lib/controller_display/controller_display_node" to ""
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/library_path.sh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/library_path.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/launch
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/launch/controller_display.launch.py
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/ament_index/resource_index/package_run_dependencies/controller_display
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/ament_index/resource_index/parent_prefix_path/controller_display
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/ament_prefix_path.sh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/ament_prefix_path.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/path.sh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/environment/path.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/local_setup.bash
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/local_setup.sh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/local_setup.zsh
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/local_setup.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/package.dsv
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/ament_index/resource_index/packages/controller_display
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/cmake/controller_displayConfig.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/cmake/controller_displayConfig-version.cmake
+-- Installing: /home/zkxt/Documents/TK30/bianjiexiongkong/install/controller_display/share/controller_display/package.xml

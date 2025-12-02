@@ -1,0 +1,269 @@
+{
+  "test_scenarios": {
+    "basic_communication": {
+      "name": "基础通信测试",
+      "description": "测试基本的UDP通信功能",
+      "duration": 60,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "normal",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "normal",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 1.0,
+          "voice_command_frequency": 0.5
+        }
+      },
+      "expected_results": {
+        "packet_loss_rate": "< 1%",
+        "latency": "< 10ms",
+        "ack_success_rate": "> 95%"
+      }
+    },
+    "stress_test": {
+      "name": "压力测试",
+      "description": "高频率数据传输测试",
+      "duration": 300,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "normal",
+          "frequency": 100.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "rapid_movement",
+          "head_tracking_frequency": 1000.0,
+          "voice_text_frequency": 10.0,
+          "voice_command_frequency": 5.0
+        }
+      },
+      "expected_results": {
+        "packet_loss_rate": "< 5%",
+        "latency": "< 50ms",
+        "ack_success_rate": "> 90%"
+      }
+    },
+    "warning_scenarios": {
+      "name": "警告场景测试",
+      "description": "测试各种警告状态的处理",
+      "duration": 120,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "multiple_warnings",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "normal",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 1.0,
+          "voice_command_frequency": 0.5
+        }
+      },
+      "expected_results": {
+        "warning_detection": "100%",
+        "warning_processing": "< 100ms"
+      }
+    },
+    "drone_control_test": {
+      "name": "无人机控制测试",
+      "description": "测试无人机控制指令",
+      "duration": 180,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "drone_high_altitude",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "drone_control",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 1.0,
+          "voice_command_frequency": 1.0
+        }
+      },
+      "expected_results": {
+        "command_success_rate": "> 95%",
+        "response_time": "< 200ms"
+      }
+    },
+    "ugv_control_test": {
+      "name": "无人车控制测试",
+      "description": "测试无人车控制指令",
+      "duration": 180,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "vehicle_stationary",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "ugv_control",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 1.0,
+          "voice_command_frequency": 1.0
+        }
+      },
+      "expected_results": {
+        "command_success_rate": "> 95%",
+        "response_time": "< 200ms"
+      }
+    },
+    "emergency_test": {
+      "name": "应急指令测试",
+      "description": "测试应急指令的可靠性",
+      "duration": 60,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "normal",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "emergency_commands",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 1.0,
+          "voice_command_frequency": 2.0
+        }
+      },
+      "expected_results": {
+        "emergency_response_time": "< 100ms",
+        "emergency_success_rate": "> 99%"
+      }
+    },
+    "protocol_validation": {
+      "name": "协议验证测试",
+      "description": "验证协议格式的正确性",
+      "duration": 300,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "normal",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "extreme_values",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 1.0,
+          "voice_command_frequency": 0.5
+        }
+      },
+      "expected_results": {
+        "protocol_compliance": "100%",
+        "crc_validation": "100%",
+        "byte_order_validation": "100%"
+      }
+    },
+    "multi_language_test": {
+      "name": "多语言测试",
+      "description": "测试多语言语音识别",
+      "duration": 120,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "normal",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "mixed_language",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 2.0,
+          "voice_command_frequency": 0.5
+        }
+      },
+      "expected_results": {
+        "text_encoding_success": "100%",
+        "utf8_validation": "100%"
+      }
+    },
+    "network_resilience": {
+      "name": "网络弹性测试",
+      "description": "测试网络异常情况下的通信",
+      "duration": 180,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "communication_failure",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "normal",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 1.0,
+          "voice_command_frequency": 0.5
+        }
+      },
+      "expected_results": {
+        "recovery_time": "< 5s",
+        "data_integrity": "> 99%"
+      }
+    },
+    "long_duration_test": {
+      "name": "长时间运行测试",
+      "description": "测试长时间运行的稳定性",
+      "duration": 3600,
+      "components": {
+        "vehicle_simulator": {
+          "enabled": true,
+          "scenario": "normal",
+          "frequency": 20.0
+        },
+        "helmet_receiver": {
+          "enabled": true,
+          "scenario": "normal",
+          "head_tracking_frequency": 100.0,
+          "voice_text_frequency": 1.0,
+          "voice_command_frequency": 0.5
+        }
+      },
+      "expected_results": {
+        "memory_leak": "无",
+        "performance_degradation": "< 5%",
+        "error_rate": "< 0.1%"
+      }
+    }
+  },
+  "test_environment": {
+    "network_config": {
+      "vehicle_port": 8888,
+      "helmet_port": 8889,
+      "ip_address": "127.0.0.1",
+      "timeout": 200
+    },
+    "performance_metrics": {
+      "packet_loss_threshold": 1.0,
+      "latency_threshold": 50.0,
+      "throughput_threshold": 1000.0,
+      "cpu_usage_threshold": 80.0,
+      "memory_usage_threshold": 512.0
+    },
+    "validation_criteria": {
+      "protocol_compliance": true,
+      "crc_validation": true,
+      "byte_order_validation": true,
+      "data_range_validation": true,
+      "frequency_validation": true
+    }
+  },
+  "test_execution": {
+    "parallel_tests": false,
+    "test_timeout": 7200,
+    "retry_count": 3,
+    "log_level": "info",
+    "output_format": "json",
+    "report_generation": true
+  }
+}
+

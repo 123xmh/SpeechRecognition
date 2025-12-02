@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TK Chest Controller - 网页监控</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TK Chest Controller - 网页监控系统</h1>
+            <div class="connection-status">
+                <span id="connection-status">未连接</span>
+                <span id="message-count">消息: 0</span>
+            </div>
+        </header>
+
+        <div class="dashboard">
+            <div class="panel">
+                <h2>按钮状态</h2>
+                <div id="button-state" class="data-container">
+                    <p>等待数据...</p>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>头部跟踪</h2>
+                <div id="head-tracking" class="data-container">
+                    <p>等待数据...</p>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>语音处理</h2>
+                <div class="sub-panels">
+                    <div class="sub-panel">
+                        <h3>语音文本</h3>
+                        <div id="voice-text" class="data-container">
+                            <p>等待数据...</p>
+                        </div>
+                    </div>
+                    <div class="sub-panel">
+                        <h3>语音命令</h3>
+                        <div id="voice-command" class="data-container">
+                            <p>等待数据...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>视频源</h2>
+                <div id="video-source" class="data-container">
+                    <p>等待数据...</p>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>设备状态</h2>
+                <div id="equipment-state" class="data-container">
+                    <p>等待数据...</p>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>IMU数据</h2>
+                <div id="imu-data" class="data-container">
+                    <p>等待数据...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
